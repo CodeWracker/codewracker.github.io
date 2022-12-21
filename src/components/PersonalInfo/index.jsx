@@ -74,7 +74,7 @@ function PersonalInfo() {
                     <div
                         className="circle-background"
                     ></div>
-                    <img src={personalInfo.profile_image} className="profile-picture" />
+                    <img alt="imagem de perfil" src={personalInfo.profile_image} className="profile-picture" />
                 </div>
             </Container>
             

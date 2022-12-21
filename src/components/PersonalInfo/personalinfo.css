@@ -3,15 +3,16 @@
   flex-direction: row;
   align-items: flex-start;
   justify-content: space-between;
-  padding: 24px 50px;
+  padding: 24px 50px 0 24px ;
   background-color: var(--tertiary-color);
+  height: 100%;
 }
 .about-text-container {
   display: flex;
   flex-direction: column;
   align-items: flex-start;
   justify-content: space-between;
-  height: 80vh;
+  height: 100%;
 }
 .skills-container {
   display: flex;
@@ -70,39 +71,57 @@
     width: 80%;
   }
 }
-@media screen and (min-width: 900px) {
+@media screen and (min-width: 900px  )  and (max-width: 1300px){
   .profile-picture-container {
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    width: 50%;
+    width: 40%;
   }
   .profile-picture {
-    width: 100%;
+    width: 50%;
     height: auto;
   }
   .about-text-container {
-    width: 40%;
+    width: 70%;
   }
 }
-
+@media screen and (min-width: 1300px){
+  .profile-picture-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 35%;
+  }
+  .profile-picture {
+    width: 50%;
+    height: auto;
+  }
+  .about-text-container {
+    width: 50%;
+  }
+}
 .image-with-circle-container {
   position: relative;
 }
 .circle-background {
   position: absolute;
-  width: 40vw;
-  height: 40vw;
+  width: 21vw;
+  height: 21vw;
+  max-width: 350px;
+  max-height: 350px;
   border-radius: 50%;
   background-color: var(--secondary-color);
-  top: 65px;
+  top: 55px;
   left: 5vw;
   z-index: 1;
 }
 .profile-picture {
   position: relative;
   z-index: 5;
+  min-width: 450px;
 }
 .description-container {
   /* texto  justificado */
