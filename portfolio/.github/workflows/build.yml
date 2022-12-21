@@ -1,0 +1,18 @@
+jobs:
+  deploy:
+    runs-on: ubuntu-18.04
+    steps:
+      - uses: actions/checkout@v2
+      - uses: actions/setup/setup-node@v1
+        with:
+          node-version: '16.x'
+      - name:: Build porfolio-app
+        run: |
+          npm ci
+          npm run build
+      - name: Deploy to gh-pages
+        uses: peaceiris/actions-gh-pages@v3
+        with:
+          github_token: ${{secrets.GTIHUB_TOKEN}}
+          publish_dir: ./build
+          
