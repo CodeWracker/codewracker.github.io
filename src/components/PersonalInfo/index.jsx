@@ -1,6 +1,6 @@
 
 import React, { useEffect, useState } from 'react';
-import { Container, Badge, List, Row, Col } from 'reactstrap';
+import { Container, Badge, Row } from 'reactstrap';
 import './personalinfo.css';
 import data from '../../data.json';
 
@@ -11,12 +11,7 @@ function PersonalInfo() {
         setPersonalInfo(data.myData);
     }, []);
 
-    function renderbadges() {
-        let keys = Object.keys(personalInfo.skillList);
-        return (<>
-
-        </>)
-    }
+    
 
 
     return (
