@@ -16,7 +16,7 @@
         "description":"I have been fascinated by electronics since childhood, when I became interested in computers, which is why I became an electronics technician and now, in my undergraduate studies, I have found my passion in the areas of AI and hardware synthesis in FPGAs. In addition to these two areas, I believe that embedded systems, especially with IoT, have great potential.",
         "profile_image":"assets/terno-nbg.png",
         "skillList": {
-            "Programming Languages": [
+            "Languages": [
                 "Python",
                 "JavaScript",
                 "C/C++",
@@ -44,7 +44,7 @@
                 "MikroC",
                 "Quartus Prime"                
             ],
-            "Languages": [
+            "Idioms": [
                 "English",
                 "Japanese",
                 "Portuguese"
