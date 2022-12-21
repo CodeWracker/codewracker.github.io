@@ -13,7 +13,7 @@ jobs:
       - uses: actions/setup/setup-node@v1
         with:
           node-version: '16.x'
-      - name:: Build porfolio-app
+      - name: Build porfolio-app
         run: |
           npm ci
           npm run build
