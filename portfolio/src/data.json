@@ -1,0 +1,54 @@
+{
+    "projectsData": [
+        {
+            "tags": [
+                "a",
+                "b"
+            ],
+            "name": "Project 1",
+            "link": "",
+            "image": "https://i.imgur.com/1ZQ3Z0M.png",
+            "description": "Project 1 description"
+        }
+    ],
+    "myData": {
+        "name": "Rodrigo Ferraz Souza",
+        "description":"I have been fascinated by electronics since childhood, when I became interested in computers, which is why I became an electronics technician and now, in my undergraduate studies, I have found my passion in the areas of AI and hardware synthesis in FPGAs. In addition to these two areas, I believe that embedded systems, especially with IoT, have great potential.",
+        "profile_image":"assets/terno-nbg.png",
+        "skillList": {
+            "Programming Languages": [
+                "Python",
+                "JavaScript",
+                "C/C++",
+                "VHDL",
+                "Arduino"
+            ],
+            "Frameworks": [
+                "React",
+                "Angular",
+                "NodeJS",
+                "Express",
+                "Flask",
+                "OpenCV",
+                "Keras",
+                "Chatbot RASA"
+            ],
+            "Databases": [
+                "MySQL",
+                "MongoDB",
+                "SQLite"
+            ],
+            "Tools": [
+                "Git",
+                "Proteus",
+                "MikroC",
+                "Quartus Prime"                
+            ],
+            "Languages": [
+                "English",
+                "Japanese",
+                "Portuguese"
+            ]
+        }
+    }
+}

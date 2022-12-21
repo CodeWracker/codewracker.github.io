@@ -1,0 +1,116 @@
+.personal-info-container {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: space-between;
+  padding: 24px 50px;
+  background-color: var(--tertiary-color);
+}
+.about-text-container {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: space-between;
+  height: 80vh;
+}
+.skills-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: flex-start;
+  width: 100%;
+}
+.skills-badge {
+  background-color: var(--primary-color);
+  color: var(--secondary-color);
+  padding: 10px;
+  width: fit-content;
+  display: block;
+  border-radius: 5px;
+  font-size: 0.8rem;
+  font-weight: 500;
+  cursor: pointer;
+}
+.skill-badge-container {
+  display: flex;
+  flex-direction: column;
+  align-items: left;
+  justify-content: center;
+}
+.skill-badge-container {
+  display: flex;
+  flex-direction: row;
+  align-items: left;
+  justify-content: start;
+}
+.skill-badge-list-container {
+  display: flex;
+  flex-direction: row;
+  align-items: left;
+  /* quebra a linha quando tem itens demais */
+  flex-wrap: wrap;
+}
+.badge-item-container {
+  width: 100%;
+  margin: 5px 8px;
+}
+.skill-tipe-label {
+  font-size: 0.8rem;
+  font-weight: 500;
+  color: var(--septenary-color);
+  min-width: 75px;
+  /* quebra linha a cada palavra */
+  word-break: break-all;
+}
+@media screen and (max-width: 900px) {
+  .profile-picture-container {
+    display: none;
+  }
+  .about-text-container {
+    width: 80%;
+  }
+}
+@media screen and (min-width: 900px) {
+  .profile-picture-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 50%;
+  }
+  .profile-picture {
+    width: 100%;
+    height: auto;
+  }
+  .about-text-container {
+    width: 40%;
+  }
+}
+
+.image-with-circle-container {
+  position: relative;
+}
+.circle-background {
+  position: absolute;
+  width: 40vw;
+  height: 40vw;
+  border-radius: 50%;
+  background-color: var(--secondary-color);
+  top: 65px;
+  left: 5vw;
+  z-index: 1;
+}
+.profile-picture {
+  position: relative;
+  z-index: 5;
+}
+.description-container {
+  /* texto  justificado */
+  text-align: justify;
+}
+.description-text {
+  font-size: 1.3rem;
+  font-weight: 500;
+  color: var(--septenary-color);
+  margin: 0 10px;
+}
