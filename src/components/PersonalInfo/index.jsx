@@ -11,21 +11,12 @@ function PersonalInfo() {
         setPersonalInfo(data.myData);
     }, []);
 
-    
+
 
 
     return (
         <Container className="personal-info-container">
-            {/* Minhas informações e um foto minha
-            ROdrigo Ferraz Souza
-            principais skills:
-              - Front com ReacJS e Angular9+
-              - backend com NodeJS
-              - baco de dados com mongoDB, mysql e postgresql
-              - visão computacional com python e opencv
-              - treinamento de modelos de rede neural com Keras (tensorflow)
-              - Síntese de hardware+ em VHDL
-           */}
+
             <Container className="about-text-container">
                 <Container className="skills-container">
 
@@ -39,11 +30,20 @@ function PersonalInfo() {
                                     personalInfo.skillList[key].map((skill) => (
                                         <div
 
-                                            key={skill}
+                                            key={skill.skillName}
                                         >
                                             <div className="badge-item-container">
                                                 <Badge
-                                                    className="skills-badge" color="primary">{skill}</Badge>
+                                                    className="skills-badge"
+                                                    style={{
+                                                        background: `linear-gradient(to right, var(--primary-color) ${skill.skillPoints}%, 
+                                                        var(--quaternary-color) 
+                                                        ${skill.skillPoints}%)`,
+                                                        transition: 'background 20s ease-in-out'
+                                                    }}
+                                                    color="primary">
+                                                    {skill.skillName}
+                                                </Badge>
                                             </div>
                                         </div>
 
@@ -56,10 +56,10 @@ function PersonalInfo() {
 
                 </Container>
                 <Container className="description-container">
-                <p className="description-text">
-                    {personalInfo.description}
-                </p>
-            </Container>
+                    <p className="description-text">
+                        {personalInfo.description}
+                    </p>
+                </Container>
                 <Container className="social-media-container">
                 </Container >
             </Container>
@@ -72,7 +72,7 @@ function PersonalInfo() {
                     <img alt="imagem de perfil" src={personalInfo.profile_image} className="profile-picture" />
                 </div>
             </Container>
-            
+
 
         </Container>
     );

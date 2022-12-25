@@ -17,37 +17,37 @@
         "profile_image":"assets/terno-nbg.png",
         "skillList": {
             "Languages": [
-                "Python",
-                "JavaScript",
-                "C/C++",
-                "VHDL",
-                "Arduino"
+                {"skillName":"Python","skillPoints":85},
+                {"skillName":"JavaScript","skillPoints":75},
+                {"skillName":"C/C++","skillPoints":80},
+                {"skillName":"VHDL","skillPoints":60},
+                {"skillName":"Arduino","skillPoints":90}
             ],
             "Frameworks": [
-                "React",
-                "Angular",
-                "NodeJS",
-                "Express",
-                "Flask",
-                "OpenCV",
-                "Keras",
-                "Chatbot RASA"
+                {"skillName":"React","skillPoints":70},
+                {"skillName":"Angular","skillPoints":65},
+                {"skillName":"NodeJS","skillPoints":80},
+                {"skillName":"Express","skillPoints":75},
+                {"skillName":"Flask","skillPoints":70},
+                {"skillName":"OpenCV","skillPoints":85},
+                {"skillName":"Keras","skillPoints":65},
+                {"skillName":"Chatbot RASA","skillPoints":55}
             ],
             "Databases": [
-                "MySQL",
-                "MongoDB",
-                "SQLite"
+                {"skillName":"MySQL","skillPoints":75},
+                {"skillName":"MongoDB","skillPoints":70},
+                {"skillName":"SQLite","skillPoints":75}
             ],
             "Tools": [
-                "Git",
-                "Proteus",
-                "MikroC",
-                "Quartus Prime"                
+                {"skillName":"Git","skillPoints":90},
+                {"skillName":"Proteus","skillPoints":90},
+                {"skillName":"MikroC","skillPoints":80},
+                {"skillName":"Quartus Prime","skillPoints":75}               
             ],
             "Idioms": [
-                "English",
-                "Japanese",
-                "Portuguese"
+                {"skillName":"English","skillPoints":80},
+                {"skillName":"Japanese","skillPoints":30},
+                {"skillName":"Portuguese","skillPoints":100}
             ]
         }
     }
