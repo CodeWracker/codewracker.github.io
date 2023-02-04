@@ -26,7 +26,7 @@ function PersonalInfo() {
 
 
     return (
-        <Container className="personal-info-container page-section">
+        <Container className="page-section personal-info-container ">
 
             <Container className="about-text-container">
                 <Container className="skills-container">

@@ -1,4 +1,5 @@
 .personal-info-container {
+  padding-top: 120px;
   display: flex;
   flex-direction: row;
   align-items: flex-start;
@@ -90,7 +91,7 @@
   }
   .personal-info-container {
     justify-content: center;
-    padding: 0;
+    padding: 120px 0px;
   }
 }
 @media screen and (min-width: 900px) and (max-width: 1300px) {

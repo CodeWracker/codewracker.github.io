@@ -11,6 +11,7 @@
   width: 95%;
   margin: auto;
   background-color: var(--tertiary-color);
+  padding: 8px 16px;
 }
 .academic-history-item-logo {
   width: 48px;

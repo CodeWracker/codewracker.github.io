@@ -122,18 +122,18 @@
         "academic_history": [
             {
                 "id": 1,
-                "course": "Graduação em Engenharia da Computação",
-                "institution": "UFSC - Universidade Federal de Santa Catarina",
+                "course": "Major in Computer Engineering",
+                "institution": "UFSC - Federal University of Santa Catarina",
                 "time": [
                     "2019",
-                    "Atualmente"
+                    "Now"
                 ],
                 "description": "",
                 "logo": "assets/ufsc_logo_mini.png"
             },
             {
                 "id": 2,
-                "course": "Técnico em Eletrônica",
+                "course": "Electronics Technician",
                 "institution": "ETEC Presidente Vargas",
                 "time": [
                     "2016",
