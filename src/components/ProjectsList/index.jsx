@@ -4,9 +4,13 @@ import data from '../../data.json'; // Arquivo JSON com os dados dos projetos
 import './projectsList.css';
 function ProjectsList() {
     const [allProjects, setAllProjects] = useState(data.projectsData.projectsList);
-
     // Estado para armazenar as tags selecionadas para filtrar
     const [allTags, setAllTags] = useState(data.projectsData.tags);
+    useEffect(() => {
+        setAllProjects(data.projectsData.projectsList);
+        setAllTags(data.projectsData.tags);
+    }, []);
+
 
 
 
