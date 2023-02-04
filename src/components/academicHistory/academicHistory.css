@@ -1,0 +1,68 @@
+.academic-history-title {
+  color: var(--primary-color);
+}
+.academic-item-list-container {
+  display: flex;
+  flex-direction: row;
+  align-items: left;
+  justify-content: space-between;
+  /* quebra a linha quando tem itens demais */
+  flex-wrap: wrap;
+  width: 95%;
+  margin: auto;
+  background-color: var(--tertiary-color);
+  padding: 8px 16px;
+}
+.academic-history-item-logo {
+  width: 48px;
+  height: fit-content;
+  border-radius: 50%;
+  margin: 5px 8px;
+}
+.academic-history-item-container {
+  display: flex;
+  flex-direction: column;
+  align-items: left;
+  justify-content: space-between;
+  margin: 5px 8px;
+  /* background-color: antiquewhite; */
+}
+@media screen and (max-width: 950px) {
+  .academic-history-item-container {
+    width: 100%;
+  }
+}
+@media screen and (min-width: 950px) {
+  .academic-history-item-container {
+    width: 45%;
+  }
+}
+.academic-history-item-header {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  align-items: center;
+  color: var(--quaternary-color);
+  /* background-color: #000; */
+  margin: 6px 0px;
+}
+.academic-history-item-body {
+  display: flex;
+  flex-direction: column;
+  align-items: left;
+  color: var(--quaternary-color);
+  padding-left: 60px;
+}
+.course-name {
+  font-size: 1rem;
+  font-weight: 400;
+  margin: 0px;
+}
+.course-duration {
+  font-size: 0.8rem;
+  font-weight: 300;
+  margin: 0px;
+}
+.institution-name {
+  margin: 0;
+}

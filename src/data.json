@@ -1,54 +1,234 @@
 {
-    "projectsData": [
-        {
-            "tags": [
-                "a",
-                "b"
-            ],
-            "name": "Project 1",
-            "link": "",
-            "image": "https://i.imgur.com/1ZQ3Z0M.png",
-            "description": "Project 1 description "
-        }
-    ],
+    "projectsData": {
+        "tags": [
+            "Personal",
+            "Academic",
+            "Professional"
+        ],
+        "projectsList": [
+            {
+                "tags": [
+                    0,
+                    1
+                ],
+                "name": "Project 1",
+                "link": "",
+                "image": "https://i.imgur.com/1ZQ3Z0M.png",
+                "description": "Project 1 description "
+            },
+            {
+                "tags": [
+                    0,
+                    1
+                ],
+                "name": "Project 2",
+                "link": "",
+                "image": "https://i.imgur.com/1ZQ3Z0M.png",
+                "description": "Project 2 description "
+            },
+            {
+                "tags": [
+                    0,
+                    1
+                ],
+                "name": "Project 3",
+                "link": "",
+                "image": "https://i.imgur.com/1ZQ3Z0M.png",
+                "description": "Project 3 description "
+            },
+            {
+                "tags": [
+                    0,
+                    1
+                ],
+                "name": "Project 4",
+                "link": "",
+                "image": "https://i.imgur.com/1ZQ3Z0M.png",
+                "description": "Project 4 description "
+            },
+            {
+                "tags": [
+                    0,
+                    1
+                ],
+                "name": "Project 5",
+                "link": "",
+                "image": "https://i.imgur.com/1ZQ3Z0M.png",
+                "description": "Project 5 description "
+            },
+            {
+                "tags": [
+                    0,
+                    1
+                ],
+                "name": "Project 6",
+                "link": "",
+                "image": "https://i.imgur.com/1ZQ3Z0M.png",
+                "description": "Project 6 description "
+            },
+            {
+                "tags": [
+                    0,
+                    1
+                ],
+                "name": "Project 7",
+                "link": "",
+                "image": "https://i.imgur.com/1ZQ3Z0M.png",
+                "description": "Project 7 description "
+            },
+            {
+                "tags": [
+                    0,
+                    1
+                ],
+                "name": "Project 8",
+                "link": "",
+                "image": "https://i.imgur.com/1ZQ3Z0M.png",
+                "description": "Project 8 description "
+            },
+            {
+                "tags": [
+                    0,
+                    1
+                ],
+                "name": "Project 9",
+                "link": "",
+                "image": "https://i.imgur.com/1ZQ3Z0M.png",
+                "description": "Project 9 description "
+            }
+        ]
+    },
     "myData": {
         "name": "Rodrigo Ferraz Souza",
-        "description":"I have been fascinated by electronics since childhood, when I became interested in computers, which is why I became an electronics technician and now, in my undergraduate studies, I have found my passion in the areas of AI and hardware synthesis in FPGAs. In addition to these two areas, I believe that embedded systems, especially with IoT, have great potential.",
-        "profile_image":"assets/terno-nbg.png",
+        "description": "I have been fascinated by electronics since childhood, when I became interested in computers, which is why I became an electronics technician and now, in my undergraduate studies, I have found my passion in the areas of AI and hardware synthesis in FPGAs. In addition to these two areas, I believe that embedded systems, especially with IoT, have great potential.",
+        "profile_image": "assets/terno-nbg.png",
         "skillList": {
             "Languages": [
-                "Python",
-                "JavaScript",
-                "C/C++",
-                "VHDL",
-                "Arduino"
+                {
+                    "skillName": "Python",
+                    "skillPoints": 85
+                },
+                {
+                    "skillName": "JavaScript",
+                    "skillPoints": 75
+                },
+                {
+                    "skillName": "C/C++",
+                    "skillPoints": 80
+                },
+                {
+                    "skillName": "VHDL",
+                    "skillPoints": 60
+                },
+                {
+                    "skillName": "Arduino",
+                    "skillPoints": 90
+                }
             ],
             "Frameworks": [
-                "React",
-                "Angular",
-                "NodeJS",
-                "Express",
-                "Flask",
-                "OpenCV",
-                "Keras",
-                "Chatbot RASA"
+                {
+                    "skillName": "React",
+                    "skillPoints": 70
+                },
+                {
+                    "skillName": "Angular",
+                    "skillPoints": 65
+                },
+                {
+                    "skillName": "NodeJS",
+                    "skillPoints": 80
+                },
+                {
+                    "skillName": "Express",
+                    "skillPoints": 75
+                },
+                {
+                    "skillName": "Flask",
+                    "skillPoints": 70
+                },
+                {
+                    "skillName": "OpenCV",
+                    "skillPoints": 85
+                },
+                {
+                    "skillName": "Keras",
+                    "skillPoints": 65
+                },
+                {
+                    "skillName": "Chatbot RASA",
+                    "skillPoints": 55
+                }
             ],
             "Databases": [
-                "MySQL",
-                "MongoDB",
-                "SQLite"
+                {
+                    "skillName": "MySQL",
+                    "skillPoints": 75
+                },
+                {
+                    "skillName": "MongoDB",
+                    "skillPoints": 70
+                },
+                {
+                    "skillName": "SQLite",
+                    "skillPoints": 75
+                }
             ],
             "Tools": [
-                "Git",
-                "Proteus",
-                "MikroC",
-                "Quartus Prime"                
+                {
+                    "skillName": "Git",
+                    "skillPoints": 90
+                },
+                {
+                    "skillName": "Proteus",
+                    "skillPoints": 90
+                },
+                {
+                    "skillName": "MikroC",
+                    "skillPoints": 80
+                },
+                {
+                    "skillName": "Quartus Prime",
+                    "skillPoints": 75
+                }
             ],
             "Idioms": [
-                "English",
-                "Japanese",
-                "Portuguese"
+                {
+                    "skillName": "English",
+                    "skillPoints": 80
+                },
+                {
+                    "skillName": "Japanese",
+                    "skillPoints": 30
+                },
+                {
+                    "skillName": "Portuguese",
+                    "skillPoints": 100
+                }
             ]
-        }
+        },
+        "academic_history": [
+            {
+                "id": 1,
+                "course": "Major in Computer Engineering",
+                "institution": "UFSC - Federal University of Santa Catarina",
+                "time": [
+                    "2019",
+                    "Now"
+                ],
+                "description": "",
+                "logo": "assets/ufsc_logo_mini.png"
+            },
+            {
+                "id": 2,
+                "course": "Electronics Technician",
+                "institution": "ETEC Presidente Vargas",
+                "time": [
+                    "2016",
+                    "2018"
+                ],
+                "description": "",
+                "logo": "assets/etec_logo_mini.jpg"
+            }
+        ]
     }
 }
