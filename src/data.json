@@ -13,42 +13,135 @@
     ],
     "myData": {
         "name": "Rodrigo Ferraz Souza",
-        "description":"I have been fascinated by electronics since childhood, when I became interested in computers, which is why I became an electronics technician and now, in my undergraduate studies, I have found my passion in the areas of AI and hardware synthesis in FPGAs. In addition to these two areas, I believe that embedded systems, especially with IoT, have great potential.",
-        "profile_image":"assets/terno-nbg.png",
+        "description": "I have been fascinated by electronics since childhood, when I became interested in computers, which is why I became an electronics technician and now, in my undergraduate studies, I have found my passion in the areas of AI and hardware synthesis in FPGAs. In addition to these two areas, I believe that embedded systems, especially with IoT, have great potential.",
+        "profile_image": "assets/terno-nbg.png",
         "skillList": {
             "Languages": [
-                {"skillName":"Python","skillPoints":85},
-                {"skillName":"JavaScript","skillPoints":75},
-                {"skillName":"C/C++","skillPoints":80},
-                {"skillName":"VHDL","skillPoints":60},
-                {"skillName":"Arduino","skillPoints":90}
+                {
+                    "skillName": "Python",
+                    "skillPoints": 85
+                },
+                {
+                    "skillName": "JavaScript",
+                    "skillPoints": 75
+                },
+                {
+                    "skillName": "C/C++",
+                    "skillPoints": 80
+                },
+                {
+                    "skillName": "VHDL",
+                    "skillPoints": 60
+                },
+                {
+                    "skillName": "Arduino",
+                    "skillPoints": 90
+                }
             ],
             "Frameworks": [
-                {"skillName":"React","skillPoints":70},
-                {"skillName":"Angular","skillPoints":65},
-                {"skillName":"NodeJS","skillPoints":80},
-                {"skillName":"Express","skillPoints":75},
-                {"skillName":"Flask","skillPoints":70},
-                {"skillName":"OpenCV","skillPoints":85},
-                {"skillName":"Keras","skillPoints":65},
-                {"skillName":"Chatbot RASA","skillPoints":55}
+                {
+                    "skillName": "React",
+                    "skillPoints": 70
+                },
+                {
+                    "skillName": "Angular",
+                    "skillPoints": 65
+                },
+                {
+                    "skillName": "NodeJS",
+                    "skillPoints": 80
+                },
+                {
+                    "skillName": "Express",
+                    "skillPoints": 75
+                },
+                {
+                    "skillName": "Flask",
+                    "skillPoints": 70
+                },
+                {
+                    "skillName": "OpenCV",
+                    "skillPoints": 85
+                },
+                {
+                    "skillName": "Keras",
+                    "skillPoints": 65
+                },
+                {
+                    "skillName": "Chatbot RASA",
+                    "skillPoints": 55
+                }
             ],
             "Databases": [
-                {"skillName":"MySQL","skillPoints":75},
-                {"skillName":"MongoDB","skillPoints":70},
-                {"skillName":"SQLite","skillPoints":75}
+                {
+                    "skillName": "MySQL",
+                    "skillPoints": 75
+                },
+                {
+                    "skillName": "MongoDB",
+                    "skillPoints": 70
+                },
+                {
+                    "skillName": "SQLite",
+                    "skillPoints": 75
+                }
             ],
             "Tools": [
-                {"skillName":"Git","skillPoints":90},
-                {"skillName":"Proteus","skillPoints":90},
-                {"skillName":"MikroC","skillPoints":80},
-                {"skillName":"Quartus Prime","skillPoints":75}               
+                {
+                    "skillName": "Git",
+                    "skillPoints": 90
+                },
+                {
+                    "skillName": "Proteus",
+                    "skillPoints": 90
+                },
+                {
+                    "skillName": "MikroC",
+                    "skillPoints": 80
+                },
+                {
+                    "skillName": "Quartus Prime",
+                    "skillPoints": 75
+                }
             ],
             "Idioms": [
-                {"skillName":"English","skillPoints":80},
-                {"skillName":"Japanese","skillPoints":30},
-                {"skillName":"Portuguese","skillPoints":100}
+                {
+                    "skillName": "English",
+                    "skillPoints": 80
+                },
+                {
+                    "skillName": "Japanese",
+                    "skillPoints": 30
+                },
+                {
+                    "skillName": "Portuguese",
+                    "skillPoints": 100
+                }
             ]
-        }
+        },
+        "academic_history": [
+            {
+                "id": 1,
+                "course": "Graduação em Engenharia da Computação",
+                "institution": "UFSC - Universidade Federal de Santa Catarina",
+                "time": [
+                    "2019",
+                    "Atualmente"
+                ],
+                "description": "",
+                "logo": "assets/ufsc_logo_mini.png"
+            },
+            {
+                "id": 2,
+                "course": "Técnico em Eletrônica",
+                "institution": "ETEC Presidente Vargas",
+                "time": [
+                    "2016",
+                    "2018"
+                ],
+                "description": "",
+                "logo": "assets/etec_logo_mini.jpg"
+            }
+        ]
     }
 }

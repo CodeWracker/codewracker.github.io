@@ -11,15 +11,22 @@ function PersonalInfo() {
     useEffect(() => {
         setPersonalInfo(data.myData);
         // check the size of screen, if its greater than 768px, set the skillListVisible to true
-        if (window.innerWidth > 768) {
+        if (window.innerWidth > 1100) {
             setSkillListVisible(Object.keys(data.myData.skillList).map((skill) => true))
+        }
+        else if (window.innerWidth < 768) {
+            setSkillListVisible(Object.keys(data.myData.skillList).map((skill) => false))
+        }
+        else {
+            // apenas o primeiro da lista é true
+            setSkillListVisible(Object.keys(data.myData.skillList).map((skill, index) => index === 0 ? true : false))
         }
     }, []);
 
 
 
     return (
-        <Container className="personal-info-container">
+        <Container className="personal-info-container page-section">
 
             <Container className="about-text-container">
                 <Container className="skills-container">
