@@ -39,9 +39,18 @@
 
 .skill-badge-container {
   display: flex;
-  flex-direction: column;
   align-items: left;
   justify-content: center;
+}
+@media screen and (max-width: 768px) {
+  .skill-badge-container {
+    flex-direction: column;
+  }
+}
+@media screen and (min-width: 768px) {
+  .skill-badge-container {
+    flex-direction: row;
+  }
 }
 
 .skill-badge-list-container {
