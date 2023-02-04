@@ -12,6 +12,8 @@ function ProjectsList() {
 
     useEffect(() => {
         setFilteredProjects(allProjects);
+        setAllTags(data.projectsData.tags);
+        setAllProjects(data.projectsData.projectsList);
     }, []);
     useEffect(() => {
         // console.log(selectedTags);
