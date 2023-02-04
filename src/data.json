@@ -1,16 +1,103 @@
 {
-    "projectsData": [
-        {
-            "tags": [
-                "a",
-                "b"
-            ],
-            "name": "Project 1",
-            "link": "",
-            "image": "https://i.imgur.com/1ZQ3Z0M.png",
-            "description": "Project 1 description "
-        }
-    ],
+    "projectsData": {
+        "tags": [
+            "Personal",
+            "Academic",
+            "Professional"
+        ],
+        "projectsList": [
+            {
+                "tags": [
+                    0,
+                    1
+                ],
+                "name": "Project 1",
+                "link": "",
+                "image": "https://i.imgur.com/1ZQ3Z0M.png",
+                "description": "Project 1 description "
+            },
+            {
+                "tags": [
+                    0,
+                    1
+                ],
+                "name": "Project 2",
+                "link": "",
+                "image": "https://i.imgur.com/1ZQ3Z0M.png",
+                "description": "Project 2 description "
+            },
+            {
+                "tags": [
+                    0,
+                    1
+                ],
+                "name": "Project 3",
+                "link": "",
+                "image": "https://i.imgur.com/1ZQ3Z0M.png",
+                "description": "Project 3 description "
+            },
+            {
+                "tags": [
+                    0,
+                    1
+                ],
+                "name": "Project 4",
+                "link": "",
+                "image": "https://i.imgur.com/1ZQ3Z0M.png",
+                "description": "Project 4 description "
+            },
+            {
+                "tags": [
+                    0,
+                    1
+                ],
+                "name": "Project 5",
+                "link": "",
+                "image": "https://i.imgur.com/1ZQ3Z0M.png",
+                "description": "Project 5 description "
+            },
+            {
+                "tags": [
+                    0,
+                    1
+                ],
+                "name": "Project 6",
+                "link": "",
+                "image": "https://i.imgur.com/1ZQ3Z0M.png",
+                "description": "Project 6 description "
+            },
+            {
+                "tags": [
+                    0,
+                    1
+                ],
+                "name": "Project 7",
+                "link": "",
+                "image": "https://i.imgur.com/1ZQ3Z0M.png",
+                "description": "Project 7 description "
+            },
+            {
+                "tags": [
+                    0,
+                    1
+                ],
+                "name": "Project 8",
+                "link": "",
+                "image": "https://i.imgur.com/1ZQ3Z0M.png",
+                "description": "Project 8 description "
+            },
+            {
+                "tags": [
+                    0,
+                    1
+                ],
+                "name": "Project 9",
+                "link": "",
+                "image": "https://i.imgur.com/1ZQ3Z0M.png",
+                "description": "Project 9 description "
+            }
+        ]
+    },
     "myData": {
         "name": "Rodrigo Ferraz Souza",
         "description": "I have been fascinated by electronics since childhood, when I became interested in computers, which is why I became an electronics technician and now, in my undergraduate studies, I have found my passion in the areas of AI and hardware synthesis in FPGAs. In addition to these two areas, I believe that embedded systems, especially with IoT, have great potential.",
