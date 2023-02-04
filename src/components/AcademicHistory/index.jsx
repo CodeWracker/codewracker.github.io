@@ -1,11 +1,11 @@
-import React, { useEffect, useState } from 'react';
-import { Container, Badge, Row } from 'reactstrap';
+import React, { useState } from 'react';
+import { Container } from 'reactstrap';
 import './academicHistory.css';
 import data from '../../data.json';
 
 
 function AcademicHistory() {
-    const [academicHistory, setAcademicHistory] = useState(data.myData.academic_history);
+    // const [academicHistory, setAcademicHistory] = useState(data.myData.academic_history);
     // useEffect(() => {
     //     //ordena a lista de forma decrescente pelo atributo time[0]
     // }, []);
@@ -14,7 +14,7 @@ function AcademicHistory() {
         <Container className="academic-history-container page-section">
             <h1 className='academic-history-title' >Academic History</h1>
             <Container className='academic-item-list-container' >
-                {academicHistory.map((academicHistoryItem) => (
+                {data.myData.academic_history.map((academicHistoryItem) => (
                     <div key={academicHistoryItem.id} className="academic-history-item-container">
                         <div className="academic-history-item-header">
                             <img src={academicHistoryItem.logo} alt="logo" className="academic-history-item-logo" />
