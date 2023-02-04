@@ -31,5 +31,4 @@ function AcademicHistory() {
         </Container>
     );
 }
-
 export default AcademicHistory;
