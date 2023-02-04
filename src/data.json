@@ -8,7 +8,6 @@
         "projectsList": [
             {
                 "tags": [
-                    0,
                     1
                 ],
                 "name": "Project 1",
@@ -88,8 +87,7 @@
             },
             {
                 "tags": [
-                    0,
-                    1
+                    2
                 ],
                 "name": "Project 9",
                 "link": "",

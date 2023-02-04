@@ -7,14 +7,40 @@
   width: 95%;
   margin: auto;
   background-color: var(--tertiary-color);
-  padding: 8px 16px;
+  padding: 32px 16px 8px 16px;
   justify-content: center;
   align-items: center;
   place-items: center;
 }
+.project-card-title {
+  margin: 0;
+  color: var(--secondary-color);
+}
+.project-card-logo {
+  /* faz a imagem ficar com 100% de width, mas com uma altura fixa, e ela simplesmente cropa a imagem caso seja maior, sem distorcer ela */
+  width: 100%;
+  max-height: 160px;
+  object-fit: cover;
+  margin: 0;
+  padding: 0;
+}
 .project-card {
-  background-color: beige;
+  background-color: var(--quaternary-color);
   margin-bottom: 16px;
+  border-radius: 0 0 8px 8px;
+  padding: 2px 2px 2px 2px;
+}
+.project-card-body {
+  padding: 8px;
+}
+.project-card-tag {
+  background-color: var(--secondary-color);
+  color: var(--senary-color);
+  padding: 4px 8px;
+  border-radius: 8px;
+  margin: 4px;
+  font-size: 0.8rem;
+  font-weight: 400;
 }
 @media screen and (min-width: 950px) {
   .projects-list-grid-container {
@@ -39,4 +65,57 @@
   .project-card {
     width: 100%;
   }
+}
+.tag-filter-container {
+  display: flex;
+  flex-direction: column;
+  width: 95%;
+  padding: 0px 16px;
+  margin: 0px auto;
+
+  /* padding: 0px 16px; */
+  background-color: var(--tertiary-color);
+}
+.tag-filter-list-container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: left;
+  flex-wrap: wrap;
+  background-color: var(--tertiary-color);
+  padding: 4px 8px;
+  border: 1px solid var(--secondary-color);
+}
+.tag-filter-btn {
+  background-color: var(--senary-color);
+  color: var(--secondary-color);
+  padding: 4px 8px;
+  border-radius: 8px;
+  margin: 4px;
+  font-size: 0.9rem;
+  width: fit-content;
+  font-weight: 400;
+}
+.tag-filter-item {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: left;
+  padding: 2px 8px;
+  border-radius: 8px;
+  margin: 4px;
+  font-size: 0.7rem;
+  width: fit-content;
+  font-weight: 400;
+}
+.tag-filter-item:hover {
+  cursor: pointer;
+}
+.selected-tag {
+  background-color: var(--primary-color);
+  color: var(--secondary-color);
+}
+.disabled-tag {
+  background-color: var(--secondary-color);
+  color: var(--senary-color);
 }
