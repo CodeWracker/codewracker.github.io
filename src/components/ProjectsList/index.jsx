@@ -11,7 +11,9 @@ function ProjectsList() {
     const [filteredProjects, setFilteredProjects] = useState([]);
 
     useEffect(() => {
-        setFilteredProjects(allProjects);
+        setFilteredProjects(data.projectsData.projectsList);
+        setAllTags(data.projectsData.tags);
+        setAllProjects(data.projectsData.projectsList);
     }, []);
     useEffect(() => {
         // console.log(selectedTags);
@@ -24,7 +26,7 @@ function ProjectsList() {
         }
 
         // console.log(filteredProjects);
-    }, [selectedTags]);
+    }, [selectedTags, allProjects]);
 
 
     function handleSelectTag(tag) {
