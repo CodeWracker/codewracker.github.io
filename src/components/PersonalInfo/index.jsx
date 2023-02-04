@@ -7,10 +7,14 @@ import data from '../../data.json';
 
 function PersonalInfo() {
     const [personalInfo, setPersonalInfo] = useState(data.myData);
+    const [skillListVisible, setSkillListVisible] = useState(Object.keys(data.myData.skillList).map((skill) => false))
     useEffect(() => {
         setPersonalInfo(data.myData);
+        // check the size of screen, if its greater than 768px, set the skillListVisible to true
+        if (window.innerWidth > 768) {
+            setSkillListVisible(Object.keys(data.myData.skillList).map((skill) => true))
+        }
     }, []);
-
 
 
 
@@ -22,35 +26,53 @@ function PersonalInfo() {
 
                     {Object.keys(personalInfo.skillList).map(key => (
                         <Container key={key} className="skill-badge-container" >
-                            <p className="skill-tipe-label">{key}</p>
-                            <Row
-                                className="skill-badge-list-container">
+                            <div
+                                onClick={() => {
+                                    const newSkillListVisible = [...skillListVisible];
+                                    newSkillListVisible[Object.keys(personalInfo.skillList).indexOf(key)] = !newSkillListVisible[Object.keys(personalInfo.skillList).indexOf(key)];
+                                    setSkillListVisible(newSkillListVisible);
+                                }}
+                                className={(skillListVisible[Object.keys(personalInfo.skillList).indexOf(key)] ? "active-skill-toggle" : "") + " skill-toggler-container"}>
+                                <p className="skill-tipe-label">{key}</p>
+                                {/* botão que é um + quando a lista não esta aparecendo e um - quando está */}
+                                <span
+                                    className="skill-list-button"
 
-                                {
-                                    personalInfo.skillList[key].map((skill) => (
-                                        <div
+                                >
+                                    {skillListVisible[Object.keys(personalInfo.skillList).indexOf(key)] ? '-' : '+'}
+                                </span>
+                            </div>
 
-                                            key={skill.skillName}
-                                        >
-                                            <div className="badge-item-container">
-                                                <Badge
-                                                    className="skills-badge"
-                                                    style={{
-                                                        background: `linear-gradient(to right, var(--primary-color) ${skill.skillPoints}%, 
+                            {skillListVisible[Object.keys(personalInfo.skillList).indexOf(key)] ? (
+                                <Row
+                                    className="skill-badge-list-container">
+
+                                    {
+                                        personalInfo.skillList[key].map((skill) => (
+                                            <div
+
+                                                key={skill.skillName}
+                                            >
+                                                <div className="badge-item-container">
+                                                    <Badge
+                                                        className="skills-badge"
+                                                        style={{
+                                                            background: `linear-gradient(to right, var(--primary-color) ${skill.skillPoints}%, 
                                                         var(--quaternary-color) 
                                                         ${skill.skillPoints}%)`,
-                                                        transition: 'background 20s ease-in-out'
-                                                    }}
-                                                    color="primary">
-                                                    {skill.skillName}
-                                                </Badge>
+                                                            transition: 'background 20s ease-in-out'
+                                                        }}
+                                                        color="primary">
+                                                        {skill.skillName}
+                                                    </Badge>
+                                                </div>
                                             </div>
-                                        </div>
 
-                                    ))
-                                }
+                                        ))
+                                    }
 
-                            </Row>
+                                </Row>
+                            ) : <></>}
                         </Container>
                     ))}
 

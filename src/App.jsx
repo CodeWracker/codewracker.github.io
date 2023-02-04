@@ -3,6 +3,7 @@ import './App.css';
 import { Container } from 'reactstrap';
 import Header from './components/Header';
 import PersonalInfo from './components/PersonalInfo';
+// import AcademicHistory from './components/AcademicHistory';
 // import ProjectsList from './components/ProjectsList';
 
 function App() {
@@ -12,9 +13,7 @@ function App() {
 
       <Header />
       <PersonalInfo />
-
-
-
+      {/* <AcademicHistory /> */}
     </Container >
   );
 }

@@ -43,12 +43,7 @@
   align-items: left;
   justify-content: center;
 }
-.skill-badge-container {
-  display: flex;
-  flex-direction: row;
-  align-items: left;
-  justify-content: flex-start;
-}
+
 .skill-badge-list-container {
   display: flex;
   flex-direction: row;
@@ -134,6 +129,7 @@
   position: relative;
   z-index: 5;
   min-width: 450px;
+  margin-top: 20px;
 }
 .description-container {
   /* texto  justificado */
@@ -143,5 +139,31 @@
   font-size: 1.3rem;
   font-weight: 500;
   color: var(--septenary-color);
-  margin: 0 10px;
+}
+.skill-toggler-container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  width: fit-content;
+  padding: 1px 6px;
+  border-radius: 5px;
+}
+.skill-toggler-container:hover {
+  cursor: pointer;
+  background-color: var(--secondary-color);
+}
+.active-skill-toggle {
+  background-color: var(--secondary-color);
+}
+.skill-list-button {
+  /* remove a cor do fundo */
+  background-color: transparent;
+  /* remove a borda */
+  border: none;
+
+  color: var(--quaternary-color);
+}
+.skill-list-button:hover {
+  color: var(--primary-color);
 }
