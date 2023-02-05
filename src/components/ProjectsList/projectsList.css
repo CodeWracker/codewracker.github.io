@@ -5,13 +5,17 @@
 .projects-list-grid-container {
   display: grid;
   grid-gap: 10px;
-  width: 95%;
   margin: auto;
   background-color: var(--tertiary-color);
-  padding: 32px 16px 8px 16px;
+  /* padding: 32px 16px 8px 16px; */
+  width: 100%;
   justify-content: center;
   align-items: center;
   place-items: center;
+}
+.projects-list-container {
+  width: 95%;
+  margin: 0 auto;
 }
 .project-card-title {
   margin: 0;
@@ -31,7 +35,7 @@
   margin-bottom: 16px;
   border-radius: 0 0 8px 8px;
   padding: 2px 2px 2px 2px;
-  min-height: 300px;
+  min-height: 250px;
 }
 .project-card-body {
   padding: 8px;
@@ -73,14 +77,14 @@
     grid-template-columns: repeat(1, 1fr);
   }
   .project-card {
-    width: 100%;
+    width: 90%;
   }
 }
 .tag-filter-container {
   display: flex;
   flex-direction: column;
-  width: 95%;
-  padding: 0px 16px;
+  width: 100%;
+  /* padding: 0px 16   ; */
   margin: 0px auto;
 
   /* padding: 0px 16px; */
