@@ -35,7 +35,8 @@
             "VueJS",
             "Mobile",
             "Frontend",
-            "Backend"
+            "Backend",
+            "PostgreSQL"
         ],
         "projectsList": [
             {
@@ -71,7 +72,7 @@
                     29
                 ],
                 "image": "",
-                "description": "A chatbot using RASA framework. Developed for a mini-course I taught at the SAEC (UFSC)"
+                "description": "A chatbot built using the RASA framework. Developed for a mini-course I taught at the SAEC (UFSC)."
             },
             {
                 "name": "Hengry Geese (Reinforcement Learning)",
@@ -84,7 +85,7 @@
                     30
                 ],
                 "image": "",
-                "description": "A Reinforcement Learning approach to the Hungry Geese Kaggle competition. Created for the activities at the Academic League of Artificial inteligence (LIA)"
+                "description": "A reinforcement learning approach to the Hungry Geese Kaggle competition. Developed for the activities of the Academic League of Artificial Intelligence (LIA)."
             },
             {
                 "name": "Hungry Geese (A*)",
@@ -95,7 +96,7 @@
                     11
                 ],
                 "image": "",
-                "description": "A A* approach to the Hungry Geese Kaggle competition. Used on the Final Project of the discipline of Artificial Intelligence at UFSC."
+                "description": "An A* approach to the Hungry Geese Kaggle competition. Used in the final project of the Artificial Intelligence course at UFSC."
             },
             {
                 "name": "VoiceShower (TCC ETEC)",
@@ -106,7 +107,7 @@
                     27
                 ],
                 "image": "",
-                "description": "An Arduino-powered voice recognition system that controls a shower, developed as a final project for my electronics technician course at ETEC."
+                "description": "An Arduino-powered voice recognition system that controls a shower, created as a final project for my electronics technician course at ETEC."
             },
             {
                 "name": "GoogleBooks PDF Extractor",
@@ -133,7 +134,7 @@
                     33
                 ],
                 "image": "",
-                "description": "A chrome extension that allows you to register your favorite mangas and keep track of the chapters you've read."
+                "description": "A Chrome extension that allows you to keep track of your favorite manga and the chapters you've read."
             },
             {
                 "name": "PenseLeve",
@@ -149,51 +150,94 @@
             {
                 "name": "I2C em VHDL",
                 "link": "https://github.com/RalphzeraTests/I2C-VHDL",
-                "tags": [],
+                "tags": [
+                    0,
+                    8,
+                    10,
+                    18
+                ],
                 "image": "",
-                "description": ""
+                "description": "A VHDL implementation of the I2C protocol."
             },
             {
                 "name": "Be The Hero (Frontend)",
                 "link": "https://github.com/RalphzeraTests/frontend-Be-the-Hero",
-                "tags": [],
+                "tags": [
+                    0,
+                    5,
+                    6,
+                    25,
+                    26,
+                    33
+                ],
                 "image": "",
-                "description": ""
+                "description": "The frontend of the Be The Hero project, developed during the OmniStack 11.0 week. The project consists of a website and a mobile app that connects people who want to help NGOs with financial resources to NGOs that need help."
             },
             {
                 "name": "Be The Hero (Backend)",
                 "link": "https://github.com/RalphzeraTests/backend-Be-the-Hero",
-                "tags": [],
+                "tags": [
+                    0,
+                    6,
+                    22,
+                    34,
+                    35
+                ],
                 "image": "",
-                "description": ""
+                "description": "The backend of the Be The Hero project, developed during the OmniStack 11.0 week. The project consists of a website and a mobile app that connects people who want to help NGOs with financial resources to NGOs that need help."
             },
             {
                 "name": "Be The Hero (Mobile)",
                 "link": "https://github.com/RalphzeraTests/mobile-Be-the-Hero",
-                "tags": [],
+                "tags": [
+                    0,
+                    6,
+                    25,
+                    26,
+                    32
+                ],
                 "image": "",
-                "description": ""
+                "description": "The mobile app of the Be The Hero project, developed during the OmniStack 11.0 week. The project consists of a website and a mobile app that connects people who want to help NGOs with financial resources to NGOs that need help."
             },
             {
                 "name": "Ecoleta (Frontend)",
                 "link": "https://github.com/RalphzeraTests/web-ecoleta",
-                "tags": [],
+                "tags": [
+                    0,
+                    5,
+                    6,
+                    25,
+                    26,
+                    33
+                ],
                 "image": "",
-                "description": ""
+                "description": "The frontend of the Ecoleta project, developed during the Next Level Week 1.0 week. The project consists of a platform that allows people to find collection points for recyclable materials."
             },
             {
                 "name": "Ecoleta (Backend)",
                 "link": "https://github.com/RalphzeraTests/server-ecoleta",
-                "tags": [],
+                "tags": [
+                    0,
+                    6,
+                    22,
+                    34,
+                    35
+                ],
                 "image": "",
-                "description": ""
+                "description": "The backend of the Ecoleta project, developed during the Next Level Week 1.0 week. The project consists of a platform that allows people to find collection points for recyclable materials."
             },
             {
                 "name": "Ecoleta (Mobile)",
                 "link": "https://github.com/RalphzeraTests/mobile-ecoleta",
-                "tags": [],
+                "tags": [
+                    0,
+                    6,
+                    25,
+                    26,
+                    32
+                ],
                 "image": "",
-                "description": ""
+                "description": "The Mobile app of the Ecoleta project, developed during the Next Level Week 1.0 week. The project consists of a platform that allows people to find collection points for recyclable materials."
             },
             {
                 "name": "Facial Analisys on the MIGMA Dataset",

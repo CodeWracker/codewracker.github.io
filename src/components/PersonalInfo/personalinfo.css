@@ -139,11 +139,9 @@
   background-color: var(--secondary-color);
   top: 55px;
   left: 5vw;
-  z-index: 1;
 }
 .profile-picture {
   position: relative;
-  z-index: 5;
   min-width: 450px;
   margin-top: 20px;
 }

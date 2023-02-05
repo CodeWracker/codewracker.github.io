@@ -38,7 +38,7 @@ function ProjectsList() {
     }
     return (
         <Container className="page-section projects-list-container">
-            <h1 className="projects-list-title">Projects</h1>
+            <h1 className="projects-list-title">Projects ({filteredProjects.length})</h1>
             <Container className="tag-filter-container">
                 <Button
                     onClick={() => {
