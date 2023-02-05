@@ -1,9 +1,18 @@
 .history-title {
-  font-size: 1.8rem;
   font-weight: 700;
   border: none;
   margin: 0;
   padding: 8px 16px;
+}
+@media screen and (max-width: 650px) {
+  .history-title {
+    font-size: 1.2rem;
+  }
+}
+@media screen and (min-width: 650px) {
+  .history-title {
+    font-size: 1.8rem;
+  }
 }
 .title-selected {
   background-color: var(--tertiary-color);

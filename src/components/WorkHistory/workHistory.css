@@ -1,0 +1,124 @@
+.work-history-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  margin: 0;
+  background-color: var(--tertiary-color);
+  padding: 8px 0px;
+}
+.work-item-list-container {
+  display: flex;
+  flex-direction: column;
+  align-items: left;
+  justify-content: center;
+  width: 95%;
+  margin: 0;
+
+  color: var(--quaternary-color);
+}
+.work-history-item-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  padding: 16px 8px;
+}
+.work-history-item-header {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: start;
+  width: 100%;
+  margin: 0;
+}
+.work-history-item-logo {
+  width: 48px;
+  height: fit-content;
+  border-radius: 50%;
+  margin: 5px 8px;
+}
+.work-history-item-body {
+  display: flex;
+  flex-direction: row;
+  align-items: left;
+  justify-content: center;
+  width: 100%;
+  margin: 0;
+}
+.work-position-item-container {
+  display: flex;
+  flex-direction: row;
+}
+.bullet-container {
+  /* background-color: aqua; */
+  margin: 0px 26px;
+}
+.work-position-item-container {
+  /* background-color: blue; */
+  width: 100%;
+}
+.work-history-item-body {
+  /* background-color: #fff; */
+  display: flex;
+  flex-direction: column;
+  align-items: left;
+}
+/* @media screen and (max-width: 0px) {
+  .bullet-container {
+    display: none;
+  }
+} */
+.bullet {
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  background-color: #000;
+  display: inline-block;
+  position: relative;
+  top: 20px;
+}
+.line {
+  width: 2px;
+  height: calc(100%);
+  background-color: #000;
+  position: relative;
+  margin: auto;
+  top: 10px;
+}
+.institution-name {
+  font-size: 1.6rem;
+  font-weight: 700;
+  margin: 0;
+}
+.position-name {
+  font-size: 1.2rem;
+  font-weight: 400;
+  margin: 0;
+}
+.position-duration {
+  font-size: 0.6rem;
+  font-weight: 300;
+  margin: 0;
+  margin-bottom: 4px;
+}
+.position-description {
+  margin: 0;
+  font-size: 0.8rem;
+}
+.work-position-item-header {
+  display: flex;
+  flex-direction: column;
+  padding: 16px 8px;
+}
+.work-position-item-body {
+  display: flex;
+  flex-direction: column;
+  padding: 0px 8px;
+}
+.position-item-content {
+  /* background-color: aliceblue; */
+  width: 100%;
+}

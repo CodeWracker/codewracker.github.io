@@ -613,7 +613,7 @@
         ],
         "work_history": {
             "LSIIM - Laboratory of Signals, IoT and Medical Imagery": {
-                "logo": "",
+                "logo": "assets/lsiim_logo_mini.png",
                 "positions": [
                     {
                         "name": "Volunteer Researcher at the Eye Tracker Project",
@@ -634,7 +634,7 @@
                 ]
             },
             "LIA - Academic League of Artificial Intelligence": {
-                "logo": "",
+                "logo": "assets/lia_logo_mini.jpg",
                 "positions": [
                     {
                         "name": "Vice President",
@@ -660,7 +660,7 @@
                 ]
             },
             "LabTeC - Laboratory of Computational Technologies": {
-                "logo": "",
+                "logo": "assets/labtec_logo_mini.png",
                 "positions": [
                     {
                         "name": "Team Leader - SysLab",
