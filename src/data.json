@@ -2,97 +2,303 @@
     "projectsData": {
         "tags": [
             "Personal",
-            "Academic",
-            "Professional"
+            "SouzaCode",
+            "UFSC",
+            "ETEC",
+            "ReactJS",
+            "Python",
+            "JavaScript",
+            "C/C++",
+            "VHDL",
+            "Arduino",
+            "FPGA",
+            "AI",
+            "Machine Learning",
+            "Deep Learning",
+            "Reinforcement Learning",
+            "Computer Vision",
+            "Data Science",
+            "ESP8266",
+            "Embbeded Systems",
+            "Chrome Extension",
+            "PHP",
+            "MySQL",
+            "NodeJS",
+            "React Native",
+            "ElectronJS",
+            "HTML",
+            "CSS",
+            "Automatization",
+            "Web Scraping",
+            "NLP",
+            "LIA - UFSC",
+            "VueJS",
+            "Mobile",
+            "Frontend",
+            "Backend"
         ],
         "projectsList": [
             {
-                "tags": [
-                    1
-                ],
-                "name": "Project 1",
-                "link": "",
-                "image": "https://i.imgur.com/1ZQ3Z0M.png",
-                "description": "Project 1 description "
-            },
-            {
+                "name": "Trello Progress tracker Bot",
+                "link": "https://github.com/CodeWracker/Trello_Progress_Tracker_Bot",
                 "tags": [
                     0,
-                    1
+                    5,
+                    27
                 ],
-                "name": "Project 2",
-                "link": "",
-                "image": "https://i.imgur.com/1ZQ3Z0M.png",
-                "description": "Project 2 description "
+                "image": "",
+                "description": "A bot that tracks the progress of your Trello cards and generates a chart with the estimated progress and the actual progress."
             },
             {
+                "name": "BudgeBakers wallet export",
+                "link": "https://github.com/CodeWracker/budgetbakers-wallet-export",
                 "tags": [
                     0,
-                    1
+                    5,
+                    27,
+                    28
                 ],
-                "name": "Project 3",
-                "link": "",
-                "image": "https://i.imgur.com/1ZQ3Z0M.png",
-                "description": "Project 3 description "
+                "image": "",
+                "description": "A Script that exports your transactions from the Budgetbakers wallet to a CSV file."
             },
             {
+                "name": "Chabot RASA (SAEC)",
+                "link": "https://github.com/CodeWracker/Minicurso_SAEC-CHATBOT_RASA",
+                "tags": [
+                    2,
+                    5,
+                    11,
+                    29
+                ],
+                "image": "",
+                "description": "A chatbot using RASA framework. Developed for a mini-course I taught at the SAEC (UFSC)"
+            },
+            {
+                "name": "Hengry Geese (Reinforcement Learning)",
+                "link": "https://github.com/CodeWracker/Hungry-Geese-Reinforcement-Learning",
+                "tags": [
+                    2,
+                    5,
+                    11,
+                    14,
+                    30
+                ],
+                "image": "",
+                "description": "A Reinforcement Learning approach to the Hungry Geese Kaggle competition. Created for the activities at the Academic League of Artificial inteligence (LIA)"
+            },
+            {
+                "name": "Hungry Geese (A*)",
+                "link": "https://github.com/CodeWracker/Hungry-Geese-Astar-approach",
+                "tags": [
+                    2,
+                    5,
+                    11
+                ],
+                "image": "",
+                "description": "A A* approach to the Hungry Geese Kaggle competition. Used on the Final Project of the discipline of Artificial Intelligence at UFSC."
+            },
+            {
+                "name": "VoiceShower (TCC ETEC)",
+                "link": "https://github.com/CodeWracker/VoiceShower-Arduino",
+                "tags": [
+                    3,
+                    9,
+                    27
+                ],
+                "image": "",
+                "description": "An Arduino-powered voice recognition system that controls a shower, developed as a final project for my electronics technician course at ETEC."
+            },
+            {
+                "name": "GoogleBooks PDF Extractor",
+                "link": "https://github.com/CodeWracker/GoogleBooks-pdf-extractor",
                 "tags": [
                     0,
-                    1
+                    5,
+                    27,
+                    28
                 ],
-                "name": "Project 4",
-                "link": "",
-                "image": "https://i.imgur.com/1ZQ3Z0M.png",
-                "description": "Project 4 description "
+                "image": "",
+                "description": "A script that extracts the PDF files from the Google Books website."
             },
             {
+                "name": "Manga BookMark",
+                "link": "https://github.com/SouzaCode/MangaBookmark",
                 "tags": [
-                    0,
-                    1
+                    1,
+                    4,
+                    6,
+                    19,
+                    25,
+                    26,
+                    33
                 ],
-                "name": "Project 5",
-                "link": "",
-                "image": "https://i.imgur.com/1ZQ3Z0M.png",
-                "description": "Project 5 description "
+                "image": "",
+                "description": "A chrome extension that allows you to register your favorite mangas and keep track of the chapters you've read."
             },
             {
+                "name": "PenseLeve",
+                "link": "https://github.com/SouzaCode/PenseLeve",
                 "tags": [
-                    0,
-                    1
+                    1,
+                    20,
+                    33
                 ],
-                "name": "Project 6",
-                "link": "",
-                "image": "https://i.imgur.com/1ZQ3Z0M.png",
-                "description": "Project 6 description "
+                "image": "",
+                "description": "An online açaí delivery website."
             },
             {
-                "tags": [
-                    0,
-                    1
-                ],
-                "name": "Project 7",
-                "link": "",
-                "image": "https://i.imgur.com/1ZQ3Z0M.png",
-                "description": "Project 7 description "
+                "name": "I2C em VHDL",
+                "link": "https://github.com/RalphzeraTests/I2C-VHDL",
+                "tags": [],
+                "image": "",
+                "description": ""
             },
             {
-                "tags": [
-                    0,
-                    1
-                ],
-                "name": "Project 8",
-                "link": "",
-                "image": "https://i.imgur.com/1ZQ3Z0M.png",
-                "description": "Project 8 description "
+                "name": "Be The Hero (Frontend)",
+                "link": "https://github.com/RalphzeraTests/frontend-Be-the-Hero",
+                "tags": [],
+                "image": "",
+                "description": ""
             },
             {
-                "tags": [
-                    2
-                ],
-                "name": "Project 9",
-                "link": "",
-                "image": "https://i.imgur.com/1ZQ3Z0M.png",
-                "description": "Project 9 description "
+                "name": "Be The Hero (Backend)",
+                "link": "https://github.com/RalphzeraTests/backend-Be-the-Hero",
+                "tags": [],
+                "image": "",
+                "description": ""
+            },
+            {
+                "name": "Be The Hero (Mobile)",
+                "link": "https://github.com/RalphzeraTests/mobile-Be-the-Hero",
+                "tags": [],
+                "image": "",
+                "description": ""
+            },
+            {
+                "name": "Ecoleta (Frontend)",
+                "link": "https://github.com/RalphzeraTests/web-ecoleta",
+                "tags": [],
+                "image": "",
+                "description": ""
+            },
+            {
+                "name": "Ecoleta (Backend)",
+                "link": "https://github.com/RalphzeraTests/server-ecoleta",
+                "tags": [],
+                "image": "",
+                "description": ""
+            },
+            {
+                "name": "Ecoleta (Mobile)",
+                "link": "https://github.com/RalphzeraTests/mobile-ecoleta",
+                "tags": [],
+                "image": "",
+                "description": ""
+            },
+            {
+                "name": "Facial Analisys on the MIGMA Dataset",
+                "link": "https://github.com/MIGMA-Team/FacialAnalysis-468Landmarks",
+                "tags": [],
+                "image": "",
+                "description": ""
+            },
+            {
+                "name": "Eye Tracking on Newborns",
+                "link": "https://github.com/LSIIM-Eye-Tracker/eye-tracking-opencv",
+                "tags": [],
+                "image": "",
+                "description": ""
+            },
+            {
+                "name": "Height Gauge Using HC SR04 on ESP8266",
+                "link": "https://github.com/TarefasUFSC/T2_Sistemas_Digitais_Embarcados",
+                "tags": [],
+                "image": "",
+                "description": ""
+            },
+            {
+                "name": "Phone Book using I2C memory on ESP8266",
+                "link": "https://github.com/TarefasUFSC/T1-Sistemas_Digitais_Embarcados",
+                "tags": [],
+                "image": "",
+                "description": ""
+            },
+            {
+                "name": "WorldCup Stickers Match System (Frontend)",
+                "link": "https://github.com/TarefasUFSC/Frontend-TinderDeFigurinhas_T1-DEC0007",
+                "tags": [],
+                "image": "",
+                "description": ""
+            },
+            {
+                "name": "WorldCup Stickers Match System (Backend)",
+                "link": "https://github.com/TarefasUFSC/Backend-TinderDeFigurinhas_T1-DEC0007",
+                "tags": [],
+                "image": "",
+                "description": ""
+            },
+            {
+                "name": "BIP Microprocessor on VHDL",
+                "link": "https://github.com/TarefasUFSC/Microprocessador-BIP-VHDL",
+                "tags": [],
+                "image": "",
+                "description": ""
+            },
+            {
+                "name": "Automatic Plant Watering",
+                "link": "https://github.com/TarefasUFSC/TFinal-Microprocessadores-Microcontroladores",
+                "tags": [],
+                "image": "",
+                "description": ""
+            },
+            {
+                "name": "BTC Close Prive Variance Prediction",
+                "link": "https://github.com/TarefasUFSC/BTC-close-price-variance-prediction",
+                "tags": [],
+                "image": "",
+                "description": ""
+            },
+            {
+                "name": "Simple General Store online",
+                "link": "https://github.com/TarefasUFSC/TFinal-BD1-Lojinha",
+                "tags": [],
+                "image": "",
+                "description": ""
+            },
+            {
+                "name": "BIP Microprocessor on LogiSim",
+                "link": "https://github.com/TarefasUFSC/Microprocessador-BIP-LogiSim",
+                "tags": [],
+                "image": "",
+                "description": ""
+            },
+            {
+                "name": "Pseudo Random Number Generator",
+                "link": "https://github.com/TarefasUFSC/Pseudo-Random-Number-Generator",
+                "tags": [],
+                "image": "",
+                "description": ""
+            },
+            {
+                "name": "Visual Ant Colony Simulation on QT Creator",
+                "link": "https://github.com/TarefasUFSC/QT-ant-simulator",
+                "tags": [],
+                "image": "",
+                "description": ""
+            },
+            {
+                "name": "Ophidian Fight",
+                "link": "https://github.com/TarefasUFSC/Rinha-de-ofidio",
+                "tags": [],
+                "image": "",
+                "description": ""
+            },
+            {
+                "name": "Robot CockFight",
+                "link": "https://github.com/TarefasUFSC/GaloRobo",
+                "tags": [],
+                "image": "",
+                "description": ""
             }
         ]
     },

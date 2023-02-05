@@ -62,13 +62,21 @@ function ProjectsList() {
             <Container className="projects-list-grid-container">
                 {filteredProjects.map((project) => (
                     <Card key={project.name} className="project-card">
-                        <CardHeader className="project-card-header">
-                            <img src={project.image} alt="logo" className="project-card-logo" />
-                            <h2 className="project-card-title">{project.name}</h2>
+                        <CardHeader
+                            className="project-card-header">
+                            <a
+                                href={project.link}
+                                target="_blank"
+                                rel="noopener noreferrer"
+
+                            >
+                                <img src={project.image ? project.image : "assets/project_default_image.png"} alt="logo" className="project-card-logo" />
+                                <h2 className="project-card-title">{project.name}</h2>
+                            </a>
                         </CardHeader>
                         <CardBody className="project-card-body">
-                            <CardTitle className="project-card-subtitle">{project.link}</CardTitle>
-                            <CardText className="project-card-description">{project.description}</CardText>
+
+                            <CardText className="project-card-description">{project.description ? project.description : "Acesse o link"}</CardText>
                             <div className="project-card-tags">
                                 {project.tags.map((tag) => (
                                     <Button
