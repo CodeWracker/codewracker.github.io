@@ -36,7 +36,10 @@
             "Mobile",
             "Frontend",
             "Backend",
-            "PostgreSQL"
+            "PostgreSQL",
+            "OpenCV",
+            "MongoDB",
+            "PIC"
         ],
         "projectsList": [
             {
@@ -148,7 +151,7 @@
                 "description": "An online açaí delivery website."
             },
             {
-                "name": "I2C em VHDL",
+                "name": "I2C using VHDL",
                 "link": "https://github.com/RalphzeraTests/I2C-VHDL",
                 "tags": [
                     0,
@@ -242,107 +245,183 @@
             {
                 "name": "Facial Analisys on the MIGMA Dataset",
                 "link": "https://github.com/MIGMA-Team/FacialAnalysis-468Landmarks",
-                "tags": [],
+                "tags": [
+                    2,
+                    5,
+                    11,
+                    15,
+                    16,
+                    36
+                ],
                 "image": "",
-                "description": ""
+                "description": "A project on the LSIIM (Laboratory of Signals, IoT and Medical Imagery) at UFSC, which aims to analyze the facial expressions of the MIGMA dataset."
             },
             {
                 "name": "Eye Tracking on Newborns",
                 "link": "https://github.com/LSIIM-Eye-Tracker/eye-tracking-opencv",
-                "tags": [],
+                "tags": [
+                    2,
+                    5,
+                    11,
+                    15,
+                    16,
+                    36
+                ],
                 "image": "",
-                "description": ""
+                "description": "A project on the LSIIM (Laboratory of Signals, IoT and Medical Imagery) at UFSC, which aims to track the eyes of newborns using OpenCV to assist on medical diagnoses"
             },
             {
                 "name": "Height Gauge Using HC SR04 on ESP8266",
                 "link": "https://github.com/TarefasUFSC/T2_Sistemas_Digitais_Embarcados",
-                "tags": [],
+                "tags": [
+                    2,
+                    7,
+                    17,
+                    18
+                ],
                 "image": "",
-                "description": ""
+                "description": "A college project that aims to measure the height of a person using an ultrasonic sensor and a ESP8266."
             },
             {
                 "name": "Phone Book using I2C memory on ESP8266",
                 "link": "https://github.com/TarefasUFSC/T1-Sistemas_Digitais_Embarcados",
-                "tags": [],
+                "tags": [
+                    2,
+                    7,
+                    17,
+                    18
+                ],
                 "image": "",
-                "description": ""
+                "description": "A college project that aims to create a phone book using a memory chip that communicates via I2C with an ESP8266."
             },
             {
                 "name": "WorldCup Stickers Match System (Frontend)",
                 "link": "https://github.com/TarefasUFSC/Frontend-TinderDeFigurinhas_T1-DEC0007",
-                "tags": [],
+                "tags": [
+                    2,
+                    6,
+                    25,
+                    26,
+                    33
+                ],
                 "image": "",
-                "description": ""
+                "description": "The frontend page of the WorldCup Stickers Match System, developed during the Web Development class. The project consists of a website that allows people to match their WorldCup stickers with other people's stickers."
             },
             {
                 "name": "WorldCup Stickers Match System (Backend)",
                 "link": "https://github.com/TarefasUFSC/Backend-TinderDeFigurinhas_T1-DEC0007",
-                "tags": [],
+                "tags": [
+                    2,
+                    6,
+                    22,
+                    34,
+                    37
+                ],
                 "image": "",
-                "description": ""
+                "description": "The backend of the WorldCup Stickers Match System, developed during the Web Development class. The project consists of a website that allows people to match their WorldCup stickers with other people's stickers."
             },
             {
                 "name": "BIP Microprocessor on VHDL",
                 "link": "https://github.com/TarefasUFSC/Microprocessador-BIP-VHDL",
-                "tags": [],
+                "tags": [
+                    2,
+                    8,
+                    10,
+                    18
+                ],
                 "image": "",
-                "description": ""
+                "description": "A college project that aims to create a BIP microprocessor using VHDL."
             },
             {
                 "name": "Automatic Plant Watering",
                 "link": "https://github.com/TarefasUFSC/TFinal-Microprocessadores-Microcontroladores",
-                "tags": [],
+                "tags": [
+                    2,
+                    7,
+                    18,
+                    27,
+                    38
+                ],
                 "image": "",
-                "description": ""
+                "description": "A college project that aims to create a system that automatically waters a plant using a PIC877A microcontroller."
             },
             {
                 "name": "BTC Close Prive Variance Prediction",
-                "link": "https://github.com/TarefasUFSC/BTC-close-price-variance-prediction",
-                "tags": [],
+                "link": "https://github.com/TarefasUFSC/BTC-close-price-variance-prediction/blob/main/Relatorio-T2-IA2_RFS-MR.pdf",
+                "tags": [
+                    2,
+                    5,
+                    11,
+                    12
+                ],
                 "image": "",
-                "description": ""
+                "description": "A college project that aims to predict the variance of the BTC close price using a dense neural network. The project was developed using Python and the Keras library for the Artificial Intelligence class."
             },
             {
                 "name": "Simple General Store online",
                 "link": "https://github.com/TarefasUFSC/TFinal-BD1-Lojinha",
-                "tags": [],
+                "tags": [
+                    2,
+                    6,
+                    23,
+                    25,
+                    26,
+                    33,
+                    34,
+                    35
+                ],
                 "image": "",
-                "description": ""
+                "description": "A project developed for the Database 1 class, which aims to create a simple online store."
             },
             {
                 "name": "BIP Microprocessor on LogiSim",
                 "link": "https://github.com/TarefasUFSC/Microprocessador-BIP-LogiSim",
-                "tags": [],
+                "tags": [
+                    2,
+                    18
+                ],
                 "image": "",
-                "description": ""
+                "description": "A college project that aims to create a BIP microprocessor using LogiSim. Developed for the Organization and Architecture of Computers class."
             },
             {
                 "name": "Pseudo Random Number Generator",
                 "link": "https://github.com/TarefasUFSC/Pseudo-Random-Number-Generator",
-                "tags": [],
+                "tags": [
+                    2,
+                    5
+                ],
                 "image": "",
-                "description": ""
+                "description": "A program used on the Modeling and Simulation class, which aims to generate pseudo random numbers using hashing."
             },
             {
                 "name": "Visual Ant Colony Simulation on QT Creator",
                 "link": "https://github.com/TarefasUFSC/QT-ant-simulator",
-                "tags": [],
+                "tags": [
+                    2,
+                    7,
+                    11
+                ],
                 "image": "",
-                "description": ""
+                "description": "The final project for the Programming Languages II class, which aims to simulate an ant colony interactively using QT Creator."
             },
             {
                 "name": "Ophidian Fight",
                 "link": "https://github.com/TarefasUFSC/Rinha-de-ofidio",
-                "tags": [],
+                "tags": [
+                    2,
+                    7
+                ],
                 "image": "",
-                "description": ""
+                "description": "A project developed for the Programming Languages II class, which aims to be a game like the classic snake game, but with levels and a boss fight at the end. The boss uses the A* algorithm to find the food faster than the player."
             },
             {
                 "name": "Robot CockFight",
                 "link": "https://github.com/TarefasUFSC/GaloRobo",
-                "tags": [],
+                "tags": [
+                    2
+                ],
                 "image": "",
-                "description": ""
+                "description": "The very first project developed at the UFSC on the Introduction to Computer Engineering class. It is a Lego Robot made for a competition, where the robot had to fight other robots and blow up the opponent's balloon."
             }
         ]
     },
