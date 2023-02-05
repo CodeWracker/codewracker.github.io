@@ -71,7 +71,7 @@ function ProjectsList() {
 
                             >
                                 <img src={project.image ? project.image : "assets/project_default_image.png"} alt="logo" className="project-card-logo" />
-                                <h2 className="project-card-title">{project.name}</h2>
+                                <CardTitle className="project-card-title">{project.name}</CardTitle>
                             </a>
                         </CardHeader>
                         <CardBody className="project-card-body">
