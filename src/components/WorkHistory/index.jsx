@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import { Container } from "reactstrap";
 import './workHistory.css';
-import data from '../../data.json';
+// import data from '../../data.json';
 function Histories() {
 
     return (
