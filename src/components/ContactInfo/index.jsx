@@ -22,6 +22,7 @@ function ContactInfo() {
                         <a
                             href={contactInfo[1][contactInfoItem].value}
                             target="_blank"
+                            rel="noopener noreferrer"
                         >
                             <img src={contactInfo[1][contactInfoItem].logo} alt="logo" className="contact-info-item-logo" />
                         </a>
