@@ -148,7 +148,7 @@
                 "description": "An online açaí delivery website."
             },
             {
-                "name": "I2C em VHDL",
+                "name": "I2C using VHDL",
                 "link": "https://github.com/RalphzeraTests/I2C-VHDL",
                 "tags": [
                     0,
