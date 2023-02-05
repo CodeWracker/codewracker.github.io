@@ -39,9 +39,39 @@
             "PostgreSQL",
             "OpenCV",
             "MongoDB",
-            "PIC"
+            "PIC",
+            "PWA",
+            "LabTeC",
+            "AngularJS"
         ],
         "projectsList": [
+            {
+                "name": "Manga BookMark",
+                "link": "https://github.com/SouzaCode/MangaBookmark",
+                "tags": [
+                    1,
+                    4,
+                    6,
+                    19,
+                    25,
+                    26,
+                    33
+                ],
+                "image": "",
+                "description": "A Chrome extension that allows you to keep track of your favorite manga and the chapters you've read."
+            },
+            {
+                "name": "BIP Microprocessor on VHDL",
+                "link": "https://github.com/TarefasUFSC/Microprocessador-BIP-VHDL",
+                "tags": [
+                    2,
+                    8,
+                    10,
+                    18
+                ],
+                "image": "",
+                "description": "A college project that aims to create a BIP microprocessor using VHDL."
+            },
             {
                 "name": "Trello Progress tracker Bot",
                 "link": "https://github.com/CodeWracker/Trello_Progress_Tracker_Bot",
@@ -125,21 +155,6 @@
                 "description": "A script that extracts the PDF files from the Google Books website."
             },
             {
-                "name": "Manga BookMark",
-                "link": "https://github.com/SouzaCode/MangaBookmark",
-                "tags": [
-                    1,
-                    4,
-                    6,
-                    19,
-                    25,
-                    26,
-                    33
-                ],
-                "image": "",
-                "description": "A Chrome extension that allows you to keep track of your favorite manga and the chapters you've read."
-            },
-            {
                 "name": "PenseLeve",
                 "link": "https://github.com/SouzaCode/PenseLeve",
                 "tags": [
@@ -197,7 +212,8 @@
                     6,
                     25,
                     26,
-                    32
+                    32,
+                    23
                 ],
                 "image": "",
                 "description": "The mobile app of the Be The Hero project, developed during the OmniStack 11.0 week. The project consists of a website and a mobile app that connects people who want to help NGOs with financial resources to NGOs that need help."
@@ -237,7 +253,8 @@
                     6,
                     25,
                     26,
-                    32
+                    32,
+                    23
                 ],
                 "image": "",
                 "description": "The Mobile app of the Ecoleta project, developed during the Next Level Week 1.0 week. The project consists of a platform that allows people to find collection points for recyclable materials."
@@ -321,18 +338,6 @@
                 "description": "The backend of the WorldCup Stickers Match System, developed during the Web Development class. The project consists of a website that allows people to match their WorldCup stickers with other people's stickers."
             },
             {
-                "name": "BIP Microprocessor on VHDL",
-                "link": "https://github.com/TarefasUFSC/Microprocessador-BIP-VHDL",
-                "tags": [
-                    2,
-                    8,
-                    10,
-                    18
-                ],
-                "image": "",
-                "description": "A college project that aims to create a BIP microprocessor using VHDL."
-            },
-            {
                 "name": "Automatic Plant Watering",
                 "link": "https://github.com/TarefasUFSC/TFinal-Microprocessadores-Microcontroladores",
                 "tags": [
@@ -363,7 +368,7 @@
                 "tags": [
                     2,
                     6,
-                    23,
+                    4,
                     25,
                     26,
                     33,
@@ -422,6 +427,55 @@
                 ],
                 "image": "",
                 "description": "The very first project developed at the UFSC on the Introduction to Computer Engineering class. It is a Lego Robot made for a competition, where the robot had to fight other robots and blow up the opponent's balloon."
+            },
+            {
+                "name": "Wreck My Room - Door Locks Management System",
+                "link": "https://github.com/TarefasUFSC/T2-WebDev",
+                "tags": [
+                    2,
+                    6,
+                    22,
+                    25,
+                    26,
+                    31,
+                    33,
+                    37,
+                    39
+                ],
+                "image": "",
+                "description": "A project for the Web Development Class that uses Vue and Progressive Web Aplication to develop a website that allows the management of door locks."
+            },
+            {
+                "name": "AR Repository",
+                "link": "https://app.rarepository.ufsc.br/pt/login",
+                "tags": [
+                    2,
+                    6,
+                    21,
+                    25,
+                    26,
+                    33,
+                    34,
+                    40
+                ],
+                "image": "",
+                "description": "A project developed for The Laboratory of Computer Technology (LabTeC) at UFSC. The project aims to create a repository of augmented reality objects that can be used in the MAZK project."
+            },
+            {
+                "name": "LGBT Friendly App",
+                "link": "https://labtec.ufsc.br/",
+                "tags": [
+                    2,
+                    40,
+                    6,
+                    23,
+                    25,
+                    26,
+                    32,
+                    41
+                ],
+                "image": "",
+                "description": "Acted in the maintenance of the LGBT Friendly App, a project developed by the Laboratory of Computer Technology (LabTeC) at UFSC. The project aims to create a mobile application that allows the user to find LGBT friendly places."
             }
         ]
     },
@@ -556,6 +610,84 @@
                 "description": "",
                 "logo": "assets/etec_logo_mini.jpg"
             }
-        ]
+        ],
+        "work_history": {
+            "LSIIM - Laboratory of Signals, IoT and Medical Imagery": {
+                "logo": "",
+                "positions": [
+                    {
+                        "name": "Volunteer Researcher at the Eye Tracker Project",
+                        "time": [
+                            "06/2021",
+                            "Now"
+                        ],
+                        "description": "Together with Prof. Sobieranski developed a solution to detect anomalies in the vision of newborns exposed to Covid-19 during pregnancy. Using Computer Vision, with the MediaPipe model, to detect abnormal proportions between pupil and iris and analyzing pupil fluctuation in relation to time to assess the child's condition, using neural network models with TensorFlow in python."
+                    },
+                    {
+                        "name": "PIBIC Scholarship in the MIGA Project",
+                        "time": [
+                            "10/2021",
+                            "10/2022"
+                        ],
+                        "description": "My goal in this project is to use python to discover statistical correlations between the Landmarks obtained by analyzing facial expressions, with Google's MediaPipe, and their psychiatric diagnoses, obtained on the day they took the captures."
+                    }
+                ]
+            },
+            "LIA - Academic League of Artificial Intelligence": {
+                "logo": "",
+                "positions": [
+                    {
+                        "name": "Vice President",
+                        "time": [
+                            "06/2021",
+                            "04/2022"
+                        ],
+                        "description": "As a founding member and vice president of LIA, it was my responsibility to help the president and administrative members effectively coordinate the activities of the league, such as the organization of events, the development of projects and the dissemination of the league."
+                    }
+                ]
+            },
+            "UFSC - Federal University of Santa Catarina": {
+                "logo": "assets/ufsc_logo_mini.png",
+                "positions": [
+                    {
+                        "name": "Data Structures I Monitor",
+                        "time": [
+                            "02/2021",
+                            "05/2021"
+                        ],
+                        "description": "I was responsible for monitoring the discipline of Data Structures I, in the Computer Engineering course, at the Federal University of Santa Catarina."
+                    }
+                ]
+            },
+            "LabTeC - Laboratory of Computational Technologies": {
+                "logo": "",
+                "positions": [
+                    {
+                        "name": "Team Leader - SysLab",
+                        "time": [
+                            "05/2020",
+                            "07/2020"
+                        ],
+                        "description": "I coordinated a team to develop a management system for the laboratory, with React JS website, React Native mobile application, NodeJS backend and Postgresql database."
+                    },
+                    {
+                        "name": "Android FrontEnd Developer - LGBT Friendly",
+                        "time": [
+                            "12/2019",
+                            "07/2020"
+                        ],
+                        "description": "I was part of the maintenance team of the LGBT Friendly App, written in React Native"
+                    },
+                    {
+                        "name": "FullStack Developer - RA Repository",
+                        "time": [
+                            "03/2019",
+                            "07/2020"
+                        ],
+                        "description": "I was part of the development of a FrontEnd application in Angular, with BackEnd in Python using Swagger and SQLAlchemy and MySQL Database to create a repository for the Augmented Reality objects Created by the laboratory"
+                    }
+                ]
+            }
+        }
     }
 }

@@ -11,8 +11,7 @@ function AcademicHistory() {
     // }, []);
 
     return (
-        <Container className="academic-history-container page-section">
-            <h1 className='academic-history-title' >Academic History</h1>
+        <Container className="academic-history-container">
             <Container className='academic-item-list-container' >
                 {data.myData.academic_history.map((academicHistoryItem) => (
                     <div key={academicHistoryItem.id} className="academic-history-item-container">

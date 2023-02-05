@@ -1,6 +1,3 @@
-.academic-history-title {
-  color: var(--primary-color);
-}
 .academic-item-list-container {
   display: flex;
   flex-direction: row;
@@ -8,10 +5,9 @@
   justify-content: space-between;
   /* quebra a linha quando tem itens demais */
   flex-wrap: wrap;
-  width: 95%;
-  margin: auto;
   background-color: var(--tertiary-color);
   padding: 8px 16px;
+  margin: 0;
 }
 .academic-history-item-logo {
   width: 48px;

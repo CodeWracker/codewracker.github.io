@@ -1,0 +1,35 @@
+.history-title {
+  font-size: 1.8rem;
+  font-weight: 700;
+  border: none;
+  margin: 0;
+  padding: 8px 16px;
+}
+.title-selected {
+  background-color: var(--tertiary-color);
+  color: var(--primary-color);
+}
+.title-unselected {
+  background-color: var(--secondary-color);
+  color: var(--quaternary-color);
+}
+.history-selector-container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  margin: 0 0px;
+}
+.history-container {
+  width: 100%;
+  margin: 0;
+}
+.histories-container {
+  width: 95%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin: auto;
+}

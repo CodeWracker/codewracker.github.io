@@ -1,5 +1,6 @@
 .projects-list-title {
   color: var(--primary-color);
+  padding: 8px 16px;
 }
 .projects-list-grid-container {
   display: grid;
