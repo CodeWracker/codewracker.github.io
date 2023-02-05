@@ -5,6 +5,7 @@
   justify-content: center;
   width: 95%;
   margin: auto;
+  color: var(--quaternary-color);
 }
 .contact-info-row-container {
   display: flex;
