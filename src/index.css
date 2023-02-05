@@ -23,6 +23,13 @@ code {
     Consolas, "Courier New", monospace;
 }
 
-.page-section {
-  padding: 50px 24px 0px 24px;
+@media screen and (min-width: 450px) {
+  .page-section {
+    padding: 50px 12px 0px 12px;
+  }
+}
+@media screen and (max-width: 720px) {
+  .page-section {
+    padding: 0;
+  }
 }
