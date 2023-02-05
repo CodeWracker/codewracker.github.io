@@ -43,6 +43,33 @@
         ],
         "projectsList": [
             {
+                "name": "Manga BookMark",
+                "link": "https://github.com/SouzaCode/MangaBookmark",
+                "tags": [
+                    1,
+                    4,
+                    6,
+                    19,
+                    25,
+                    26,
+                    33
+                ],
+                "image": "",
+                "description": "A Chrome extension that allows you to keep track of your favorite manga and the chapters you've read."
+            },
+            {
+                "name": "BIP Microprocessor on VHDL",
+                "link": "https://github.com/TarefasUFSC/Microprocessador-BIP-VHDL",
+                "tags": [
+                    2,
+                    8,
+                    10,
+                    18
+                ],
+                "image": "",
+                "description": "A college project that aims to create a BIP microprocessor using VHDL."
+            },
+            {
                 "name": "Trello Progress tracker Bot",
                 "link": "https://github.com/CodeWracker/Trello_Progress_Tracker_Bot",
                 "tags": [
@@ -125,21 +152,6 @@
                 "description": "A script that extracts the PDF files from the Google Books website."
             },
             {
-                "name": "Manga BookMark",
-                "link": "https://github.com/SouzaCode/MangaBookmark",
-                "tags": [
-                    1,
-                    4,
-                    6,
-                    19,
-                    25,
-                    26,
-                    33
-                ],
-                "image": "",
-                "description": "A Chrome extension that allows you to keep track of your favorite manga and the chapters you've read."
-            },
-            {
                 "name": "PenseLeve",
                 "link": "https://github.com/SouzaCode/PenseLeve",
                 "tags": [
@@ -197,7 +209,8 @@
                     6,
                     25,
                     26,
-                    32
+                    32,
+                    23
                 ],
                 "image": "",
                 "description": "The mobile app of the Be The Hero project, developed during the OmniStack 11.0 week. The project consists of a website and a mobile app that connects people who want to help NGOs with financial resources to NGOs that need help."
@@ -237,7 +250,8 @@
                     6,
                     25,
                     26,
-                    32
+                    32,
+                    23
                 ],
                 "image": "",
                 "description": "The Mobile app of the Ecoleta project, developed during the Next Level Week 1.0 week. The project consists of a platform that allows people to find collection points for recyclable materials."
@@ -321,18 +335,6 @@
                 "description": "The backend of the WorldCup Stickers Match System, developed during the Web Development class. The project consists of a website that allows people to match their WorldCup stickers with other people's stickers."
             },
             {
-                "name": "BIP Microprocessor on VHDL",
-                "link": "https://github.com/TarefasUFSC/Microprocessador-BIP-VHDL",
-                "tags": [
-                    2,
-                    8,
-                    10,
-                    18
-                ],
-                "image": "",
-                "description": "A college project that aims to create a BIP microprocessor using VHDL."
-            },
-            {
                 "name": "Automatic Plant Watering",
                 "link": "https://github.com/TarefasUFSC/TFinal-Microprocessadores-Microcontroladores",
                 "tags": [
@@ -363,7 +365,7 @@
                 "tags": [
                     2,
                     6,
-                    23,
+                    4,
                     25,
                     26,
                     33,
@@ -422,6 +424,27 @@
                 ],
                 "image": "",
                 "description": "The very first project developed at the UFSC on the Introduction to Computer Engineering class. It is a Lego Robot made for a competition, where the robot had to fight other robots and blow up the opponent's balloon."
+            },
+            {
+                "name": "Wreck My Room - Door Locks Management System",
+                "link": "",
+                "tags": [],
+                "image": "",
+                "description": ""
+            },
+            {
+                "name": "AR Repository (LabTeC)",
+                "link": "",
+                "tags": [],
+                "image": "",
+                "description": ""
+            },
+            {
+                "name": "LGBT Friendly App",
+                "link": "",
+                "tags": [],
+                "image": "",
+                "description": ""
             }
         ]
     },
