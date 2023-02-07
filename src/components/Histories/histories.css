@@ -3,13 +3,14 @@
   border: none;
   margin: 0;
   padding: 8px 16px;
+  width: 50%;
 }
-@media screen and (max-width: 650px) {
+@media screen and (max-width: 675px) {
   .history-title {
     font-size: 1.2rem;
   }
 }
-@media screen and (min-width: 650px) {
+@media screen and (min-width: 675px) {
   .history-title {
     font-size: 1.8rem;
   }
