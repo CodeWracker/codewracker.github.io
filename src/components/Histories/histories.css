@@ -4,6 +4,7 @@
   margin: 0;
   padding: 8px 16px;
   width: 50%;
+  cursor: pointer;
 }
 @media screen and (max-width: 675px) {
   .history-title {
@@ -30,6 +31,9 @@
   justify-content: space-between;
   width: 100%;
   margin: 0 0px;
+}
+.history-selector-container:hover {
+  cursor: pointer;
 }
 .history-container {
   width: 100%;
