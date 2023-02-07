@@ -6,7 +6,7 @@ import data from '../../data.json';
 function ContactInfo() {
     const contactInfo = data.myData.contact_info;
     return (
-        <Container className="page-section contact-info-container">
+        <Container id="contact" className="page-section contact-info-container">
 
             <Container className="contact-info-row-container">
                 {Object.keys(contactInfo[0]).map((contactInfoItem) => (
