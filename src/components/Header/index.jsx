@@ -10,10 +10,14 @@ function Header() {
                 <p className="header-title">{"<Rodrigo Ferraz Souza/>"}</p>
             </Container>
             <Container className="header-links-container">
-                <p className="header-link">Home</p>
-                <p className="header-link">Academic</p>
-                <p className="header-link">Projects</p>
-                <p className="header-link">About</p>
+                <p onClick={() => document.getElementById('home').scrollIntoView()}
+                    className="header-link">Home</p>
+                <p
+                    onClick={() => document.getElementById('histories').scrollIntoView()}
+                    className="header-link">Academic/Professional</p>
+                <p
+                    onClick={() => document.getElementById('projects').scrollIntoView()}
+                    className="header-link">Projects</p>
             </Container>
         </Container>
     );

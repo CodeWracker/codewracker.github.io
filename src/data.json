@@ -348,7 +348,7 @@
                     38
                 ],
                 "image": "",
-                "description": "A college project that aims to create a system that automatically waters a plant using a PIC877A microcontroller."
+                "description": "A college project that aims to create a system that automatically waters a plant using a PIC16F877A microcontroller."
             },
             {
                 "name": "BTC Close Prive Variance Prediction",
@@ -693,24 +693,26 @@
             {
                 "email": {
                     "value": "dev.rodrigofs@gmail.com",
-                    "logo": "assets/email_logo_mini.png"
+                    "logo": "assets/email_logo_mini.png",
+                    "link": "mailto:dev.rodrigofs@gmail.com?subject=Hello%20Rodrigo!"
                 },
                 "whatsapp": {
                     "value": "+55 11 97482-0650",
-                    "logo": "assets/whatsapp_logo_mini.png"
+                    "logo": "assets/whatsapp_logo_mini.png",
+                    "link": "https://wa.me/5511974820650"
                 }
             },
             {
                 "linkedin": {
-                    "value": "https://www.linkedin.com/in/rodrigo-fsouza/",
+                    "link": "https://www.linkedin.com/in/rodrigo-fsouza/",
                     "logo": "assets/linkedin_logo_mini.png"
                 },
                 "github": {
-                    "value": "https://www.github.com/codewracker",
+                    "link": "https://www.github.com/codewracker",
                     "logo": "assets/github_logo_mini.png"
                 },
                 "stack_overflow": {
-                    "value": "https://stackoverflow.com/users/15266137/rodrigo-ferraz-souza",
+                    "link": "https://stackoverflow.com/users/15266137/rodrigo-ferraz-souza",
                     "logo": "assets/stackoverflow_logo_mini.png"
                 }
             }

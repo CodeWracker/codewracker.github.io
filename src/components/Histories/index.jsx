@@ -10,7 +10,7 @@ function Histories() {
         setSelectedHistory(history);
     }
     return (
-        <Container className="page-section histories-container">
+        <Container id="histories" className="page-section histories-container">
             <Container className="history-selector-container">
 
                 <Button className={"history-title " + (selectedHistory === 'academic' ? 'title-selected' : 'title-unselected')}
