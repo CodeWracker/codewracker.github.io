@@ -57,7 +57,7 @@
                     26,
                     33
                 ],
-                "image": "",
+                "image": "https://github.com/SouzaCode/MangaBookmark/blob/develop/public/logo_sf.png?raw=true",
                 "description": "A Chrome extension that allows you to keep track of your favorite manga and the chapters you've read."
             },
             {
@@ -69,7 +69,7 @@
                     10,
                     18
                 ],
-                "image": "",
+                "image": "https://user-images.githubusercontent.com/42501669/183143530-79fb0cea-ab42-4fe4-895a-eaede9f89866.png",
                 "description": "A college project that aims to create a BIP microprocessor using VHDL."
             },
             {
@@ -80,7 +80,7 @@
                     5,
                     27
                 ],
-                "image": "",
+                "image": "https://github.com/CodeWracker/Trello_Progress_Tracker_Bot/blob/main/output/2022-12-19-difficulty_chart.png?raw=true",
                 "description": "A bot that tracks the progress of your Trello cards and generates a chart with the estimated progress and the actual progress."
             },
             {
@@ -92,7 +92,7 @@
                     27,
                     28
                 ],
-                "image": "",
+                "image": "https://modded-1.com/wp-content/uploads/2022/03/cover-wallet.jpg",
                 "description": "A Script that exports your transactions from the Budgetbakers wallet to a CSV file."
             },
             {
@@ -104,7 +104,7 @@
                     11,
                     29
                 ],
-                "image": "",
+                "image": "https://blog.brq.com/wp-content/uploads/2020/10/1.png",
                 "description": "A chatbot built using the RASA framework. Developed for a mini-course I taught at the SAEC (UFSC)."
             },
             {
@@ -117,7 +117,7 @@
                     14,
                     30
                 ],
-                "image": "",
+                "image": "https://prtimes.jp/i/24667/49/resize/d24667-49-f759af2764a4295ee28c-0.png",
                 "description": "A reinforcement learning approach to the Hungry Geese Kaggle competition. Developed for the activities of the Academic League of Artificial Intelligence (LIA)."
             },
             {
@@ -128,7 +128,7 @@
                     5,
                     11
                 ],
-                "image": "",
+                "image": "https://prtimes.jp/i/24667/49/resize/d24667-49-f759af2764a4295ee28c-0.png",
                 "description": "An A* approach to the Hungry Geese Kaggle competition. Used in the final project of the Artificial Intelligence course at UFSC."
             },
             {
@@ -139,7 +139,7 @@
                     9,
                     27
                 ],
-                "image": "",
+                "image": "assets/voice_shower_project.png",
                 "description": "An Arduino-powered voice recognition system that controls a shower, created as a final project for my electronics technician course at ETEC."
             },
             {
@@ -151,7 +151,7 @@
                     27,
                     28
                 ],
-                "image": "",
+                "image": "https://raw.githubusercontent.com/CodeWracker/GoogleBooks-pdf-extractor/master/readme-data/diagrama.png",
                 "description": "A script that extracts the PDF files from the Google Books website."
             },
             {
@@ -162,7 +162,7 @@
                     20,
                     33
                 ],
-                "image": "",
+                "image": "assets/penseleve_project.png",
                 "description": "An online açaí delivery website."
             },
             {
@@ -174,7 +174,7 @@
                     10,
                     18
                 ],
-                "image": "",
+                "image": "https://user-images.githubusercontent.com/42501669/183146894-f651a4d0-c488-4d60-8c90-6d092edaf8d2.png",
                 "description": "A VHDL implementation of the I2C protocol."
             },
             {
@@ -188,7 +188,7 @@
                     26,
                     33
                 ],
-                "image": "",
+                "image": "https://github.com/RalphzeraTests/mobile-Be-the-Hero/blob/master/assets/splash.png?raw=true",
                 "description": "The frontend of the Be The Hero project, developed during the OmniStack 11.0 week. The project consists of a website and a mobile app that connects people who want to help NGOs with financial resources to NGOs that need help."
             },
             {
@@ -201,7 +201,7 @@
                     34,
                     35
                 ],
-                "image": "",
+                "image": "https://github.com/RalphzeraTests/mobile-Be-the-Hero/blob/master/assets/splash.png?raw=true",
                 "description": "The backend of the Be The Hero project, developed during the OmniStack 11.0 week. The project consists of a website and a mobile app that connects people who want to help NGOs with financial resources to NGOs that need help."
             },
             {
@@ -215,7 +215,7 @@
                     32,
                     23
                 ],
-                "image": "",
+                "image": "https://github.com/RalphzeraTests/mobile-Be-the-Hero/blob/master/assets/splash.png?raw=true",
                 "description": "The mobile app of the Be The Hero project, developed during the OmniStack 11.0 week. The project consists of a website and a mobile app that connects people who want to help NGOs with financial resources to NGOs that need help."
             },
             {
@@ -229,7 +229,7 @@
                     26,
                     33
                 ],
-                "image": "",
+                "image": "https://raw.githubusercontent.com/RalphzeraTests/web-ecoleta/c08e2bb7114ff9317f3465db2b34542842c45f10/src/assets/logo.svg",
                 "description": "The frontend of the Ecoleta project, developed during the Next Level Week 1.0 week. The project consists of a platform that allows people to find collection points for recyclable materials."
             },
             {
@@ -242,7 +242,7 @@
                     34,
                     35
                 ],
-                "image": "",
+                "image": "https://raw.githubusercontent.com/RalphzeraTests/web-ecoleta/c08e2bb7114ff9317f3465db2b34542842c45f10/src/assets/logo.svg",
                 "description": "The backend of the Ecoleta project, developed during the Next Level Week 1.0 week. The project consists of a platform that allows people to find collection points for recyclable materials."
             },
             {
@@ -256,7 +256,7 @@
                     32,
                     23
                 ],
-                "image": "",
+                "image": "https://raw.githubusercontent.com/RalphzeraTests/web-ecoleta/c08e2bb7114ff9317f3465db2b34542842c45f10/src/assets/logo.svg",
                 "description": "The Mobile app of the Ecoleta project, developed during the Next Level Week 1.0 week. The project consists of a platform that allows people to find collection points for recyclable materials."
             },
             {
@@ -270,7 +270,7 @@
                     16,
                     36
                 ],
-                "image": "",
+                "image": "https://github.com/MIGMA-Team/FacialAnalysis-468Landmarks/blob/main/total.png?raw=true",
                 "description": "A project on the LSIIM (Laboratory of Signals, IoT and Medical Imagery) at UFSC, which aims to analyze the facial expressions of the MIGMA dataset."
             },
             {
@@ -284,7 +284,7 @@
                     16,
                     36
                 ],
-                "image": "",
+                "image": "assets/eyetracker_project.png",
                 "description": "A project on the LSIIM (Laboratory of Signals, IoT and Medical Imagery) at UFSC, which aims to track the eyes of newborns using OpenCV to assist on medical diagnoses"
             },
             {
@@ -296,7 +296,7 @@
                     17,
                     18
                 ],
-                "image": "",
+                "image": "https://cdn.awsli.com.br/600x700/1665/1665980/produto/104637840f70505acf3.jpg",
                 "description": "A college project that aims to measure the height of a person using an ultrasonic sensor and a ESP8266."
             },
             {
@@ -308,7 +308,7 @@
                     17,
                     18
                 ],
-                "image": "",
+                "image": "https://ae01.alicdn.com/kf/S15596a257cb4473dae4b1abd2ff04aa6B/Nodemcu-v3-esp8266-ch340-m-dulo-sem-fio-lua-wi-fi-internet-das-coisas-placa-de.jpg_Q90.jpg_.webp",
                 "description": "A college project that aims to create a phone book using a memory chip that communicates via I2C with an ESP8266."
             },
             {
