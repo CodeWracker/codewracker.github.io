@@ -71,7 +71,7 @@
   width: 100%;
   margin: 5px 8px;
 }
-.skill-tipe-label {
+.skill-type-label {
   font-size: 0.8rem;
   font-weight: 500;
   color: var(--septenary-color);
@@ -79,6 +79,7 @@
   /* quebra linha a cada palavra */
   word-break: break-all;
 }
+
 @media screen and (max-width: 900px) {
   .profile-picture-container {
     display: none;
@@ -162,10 +163,21 @@
   width: fit-content;
   padding: 1px 6px;
   border-radius: 5px;
+
+  border: 1px solid var(--primary-color);
+  margin: 4px 0px;
 }
 .skill-toggler-container:hover {
   cursor: pointer;
   background-color: var(--secondary-color);
+}
+.skill-toggler-container:hover
+  > .skill-list-button {
+  color: var(--primary-color);
+}
+.skill-toggler-container:hover
+  > .skill-type-label {
+  color: var(--primary-color);
 }
 .active-skill-toggle {
   background-color: var(--secondary-color);
@@ -177,7 +189,4 @@
   border: none;
 
   color: var(--quaternary-color);
-}
-.skill-list-button:hover {
-  color: var(--primary-color);
 }

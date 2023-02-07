@@ -26,7 +26,7 @@ function PersonalInfo() {
 
 
     return (
-        <Container className="page-section personal-info-container ">
+        <Container id='home' className="page-section personal-info-container ">
 
             <Container className="about-text-container">
                 <Container className="skills-container">
@@ -40,7 +40,7 @@ function PersonalInfo() {
                                     setSkillListVisible(newSkillListVisible);
                                 }}
                                 className={(skillListVisible[Object.keys(personalInfo.skillList).indexOf(key)] ? "active-skill-toggle" : "") + " skill-toggler-container"}>
-                                <p className="skill-tipe-label">{key}</p>
+                                <p className="skill-type-label">{key}</p>
                                 {/* botão que é um + quando a lista não esta aparecendo e um - quando está */}
                                 <span
                                     className="skill-list-button"
