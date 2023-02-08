@@ -14,12 +14,14 @@ function PersonalInfo() {
         if (window.innerWidth > 1100) {
             setSkillListVisible(Object.keys(data.myData.skillList).map((skill) => true))
         }
-        else if (window.innerWidth < 768) {
-            setSkillListVisible(Object.keys(data.myData.skillList).map((skill) => false))
+        else if (window.innerWidth < 900) {
+            setSkillListVisible(Object.keys(data.myData.skillList).map((skill, index) => index === 0 ? true : false))
+
         }
         else {
             // apenas o primeiro da lista é true
-            setSkillListVisible(Object.keys(data.myData.skillList).map((skill, index) => index === 0 ? true : false))
+
+            setSkillListVisible(Object.keys(data.myData.skillList).map((skill) => false))
         }
     }, []);
 
