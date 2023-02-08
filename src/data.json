@@ -14,7 +14,7 @@
             "FPGA",
             "AI",
             "Machine Learning",
-            "Deep Learning",
+            "LSIIM",
             "Reinforcement Learning",
             "Computer Vision",
             "Data Science",
@@ -266,6 +266,7 @@
                     2,
                     5,
                     11,
+                    13,
                     15,
                     16,
                     36
@@ -280,6 +281,7 @@
                     2,
                     5,
                     11,
+                    13,
                     15,
                     16,
                     36
