@@ -5,6 +5,7 @@
   padding: 8px 16px;
   width: 50%;
   cursor: pointer;
+  height: 60px;
 }
 @media screen and (max-width: 675px) {
   .history-title {
@@ -14,6 +15,16 @@
 @media screen and (min-width: 675px) {
   .history-title {
     font-size: 1.8rem;
+  }
+}
+@media screen and (max-width: 600px) {
+  .histories-container {
+    width: 100%;
+  }
+}
+@media screen and (min-width: 600px) {
+  .histories-container {
+    width: 95%;
   }
 }
 .title-selected {
@@ -40,7 +51,6 @@
   margin: 0;
 }
 .histories-container {
-  width: 95%;
   display: flex;
   flex-direction: column;
   align-items: center;
