@@ -6,6 +6,7 @@ function ProjectsList() {
     const [allProjects, setAllProjects] = useState(data.projectsData.projectsList);
     // Estado para armazenar as tags selecionadas para filtrar
     const [allTags, setAllTags] = useState(data.projectsData.tags);
+    let sortedTags = data.projectsData.tags.map(tag => tag).sort();
     const [selectedTags, setSelectedTags] = useState([]);
     const [showFilter, setShowFilter] = useState(false);
     const [filteredProjects, setFilteredProjects] = useState([]);
@@ -13,6 +14,7 @@ function ProjectsList() {
     useEffect(() => {
         setFilteredProjects(data.projectsData.projectsList);
         setAllTags(data.projectsData.tags);
+        // setSortedTags(data.projectsData.tags.copyWithin(0, 0, data.projectsData.tags.length).sort());
         setAllProjects(data.projectsData.projectsList);
     }, []);
     useEffect(() => {
@@ -47,13 +49,22 @@ function ProjectsList() {
                     className="tag-filter-btn">Select Tags</Button>
                 {showFilter && (
                     <Container className="tag-filter-list-container">
-                        {allTags.map((tag, index) => (
+                        {sortedTags.map((tag, index) => (
+                            <Button onClick={() => handleSelectTag(allTags.findIndex(atag => atag === tag))}
+                                key={tag} className={`tag-filter-item  ${selectedTags.includes(allTags.findIndex(atag => atag === tag)) ? 'selected-tag' : 'disabled-tag'}`}
+                            >
+                                {tag}
+                            </Button>
+                        ))}
+                        {/* mostra s tags, ordenadas alfabeticamente */}
+                        {/* {sortedTags.map((tag, index) => (
                             <Button onClick={() => handleSelectTag(index)}
                                 key={tag} className={`tag-filter-item  ${selectedTags.includes(index) ? 'selected-tag' : 'disabled-tag'}`}
                             >
                                 {tag}
                             </Button>
-                        ))}
+                        ))} */}
+
                     </Container>
                 )}
 
