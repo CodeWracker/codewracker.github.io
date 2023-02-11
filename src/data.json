@@ -310,7 +310,7 @@
                     17,
                     18
                 ],
-                "image": "https://ae01.alicdn.com/kf/S15596a257cb4473dae4b1abd2ff04aa6B/Nodemcu-v3-esp8266-ch340-m-dulo-sem-fio-lua-wi-fi-internet-das-coisas-placa-de.jpg_Q90.jpg_.webp",
+                "image": "assets/esp_projects.jpg",
                 "description": "A college project that aims to create a phone book using a memory chip that communicates via I2C with an ESP8266."
             },
             {
@@ -323,7 +323,7 @@
                     26,
                     33
                 ],
-                "image": "",
+                "image": "assets/tinder_figurinhas_project.png",
                 "description": "The frontend page of the WorldCup Stickers Match System, developed during the Web Development class. The project consists of a website that allows people to match their WorldCup stickers with other people's stickers."
             },
             {
@@ -336,7 +336,7 @@
                     34,
                     37
                 ],
-                "image": "",
+                "image": "assets/tinder_figurinhas_project.png",
                 "description": "The backend of the WorldCup Stickers Match System, developed during the Web Development class. The project consists of a website that allows people to match their WorldCup stickers with other people's stickers."
             },
             {
@@ -349,7 +349,7 @@
                     27,
                     38
                 ],
-                "image": "",
+                "image": "https://raw.githubusercontent.com/TarefasUFSC/TFinal-Microprocessadores-Microcontroladores/main/Diagrama%20sistema%20TopView.png",
                 "description": "A college project that aims to create a system that automatically waters a plant using a PIC16F877A microcontroller."
             },
             {
@@ -361,7 +361,7 @@
                     11,
                     12
                 ],
-                "image": "",
+                "image": "assets/btc_predictor_project.png",
                 "description": "A college project that aims to predict the variance of the BTC close price using a dense neural network. The project was developed using Python and the Keras library for the Artificial Intelligence class."
             },
             {
@@ -377,7 +377,7 @@
                     34,
                     35
                 ],
-                "image": "",
+                "image": "https://user-images.githubusercontent.com/42501669/132998391-615e9c3b-c66f-474f-a12a-9064cf1a3446.png",
                 "description": "A project developed for the Database 1 class, which aims to create a simple online store."
             },
             {
@@ -387,7 +387,7 @@
                     2,
                     18
                 ],
-                "image": "",
+                "image": "https://user-images.githubusercontent.com/42501669/128900435-7ed70d69-1eae-43ec-90c9-2a61e03516ec.png",
                 "description": "A college project that aims to create a BIP microprocessor using LogiSim. Developed for the Organization and Architecture of Computers class."
             },
             {
@@ -397,7 +397,7 @@
                     2,
                     5
                 ],
-                "image": "",
+                "image": "assets/pseudo_random_project.png",
                 "description": "A program used on the Modeling and Simulation class, which aims to generate pseudo random numbers using hashing."
             },
             {
@@ -408,7 +408,7 @@
                     7,
                     11
                 ],
-                "image": "",
+                "image": "https://user-images.githubusercontent.com/42501669/118399932-ebc4d780-b635-11eb-8dfa-df81e6d8b333.png",
                 "description": "The final project for the Programming Languages II class, which aims to simulate an ant colony interactively using QT Creator."
             },
             {
@@ -418,7 +418,7 @@
                     2,
                     7
                 ],
-                "image": "",
+                "image": "https://user-images.githubusercontent.com/42501669/116639793-b767d080-a93f-11eb-9d5a-7d038c3bc3e3.png",
                 "description": "A project developed for the Programming Languages II class, which aims to be a game like the classic snake game, but with levels and a boss fight at the end. The boss uses the A* algorithm to find the food faster than the player."
             },
             {
@@ -427,7 +427,7 @@
                 "tags": [
                     2
                 ],
-                "image": "",
+                "image": "assets/galorobo_project.jpg",
                 "description": "The very first project developed at the UFSC on the Introduction to Computer Engineering class. It is a Lego Robot made for a competition, where the robot had to fight other robots and blow up the opponent's balloon."
             },
             {
@@ -444,7 +444,7 @@
                     37,
                     39
                 ],
-                "image": "",
+                "image": "assets/wmr_project.png",
                 "description": "A project for the Web Development Class that uses Vue and Progressive Web Aplication to develop a website that allows the management of door locks."
             },
             {
@@ -460,7 +460,7 @@
                     34,
                     40
                 ],
-                "image": "",
+                "image": "https://app.rarepository.ufsc.br/pt/assets/img/Logo_RA_Reposit%C3%B3rio.png",
                 "description": "A project developed for The Laboratory of Computer Technology (LabTeC) at UFSC. The project aims to create a repository of augmented reality objects that can be used in the MAZK project."
             },
             {
