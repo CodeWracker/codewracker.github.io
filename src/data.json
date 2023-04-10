@@ -591,7 +591,18 @@
         },
         "academic_history": [
             {
-                "id": 1,
+                "id": 3,
+                "course": "Course Taking Sandwich",
+                "institution": "SIT - Shibaura Institute of Technology (芝浦工業大学)",
+                "time": [
+                    "2023",
+                    "2023"
+                ],
+                "description": "",
+                "logo": "assets/sit_logo_mini.png"
+            },
+            {
+                "id": 2,
                 "course": "Major in Computer Engineering",
                 "institution": "UFSC - Federal University of Santa Catarina",
                 "time": [
@@ -602,7 +613,7 @@
                 "logo": "assets/ufsc_logo_mini.png"
             },
             {
-                "id": 2,
+                "id": 1,
                 "course": "Electronics Technician",
                 "institution": "ETEC Presidente Vargas",
                 "time": [
