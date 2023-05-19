@@ -727,6 +727,10 @@
                 "stack_overflow": {
                     "link": "https://stackoverflow.com/users/15266137/rodrigo-ferraz-souza",
                     "logo": "assets/stackoverflow_logo_mini.png"
+                },
+                "lattes": {
+                    "link": "http://lattes.cnpq.br/7933591978524202",
+                    "logo": "assets/lattes_logo_mini.png"
                 }
             }
         ]
