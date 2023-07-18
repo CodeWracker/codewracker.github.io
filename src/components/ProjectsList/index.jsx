@@ -6,15 +6,15 @@ function ProjectsList() {
     const [allProjects, setAllProjects] = useState(data.projectsData.projectsList);
     // Estado para armazenar as tags selecionadas para filtrar
     const [allTags, setAllTags] = useState(data.projectsData.tags);
+    const [tagsClass, setTagsClass] = useState(data.projectsData.tagsClass);
     let sortedTags = data.projectsData.tags.map(tag => tag).sort();
     const [selectedTags, setSelectedTags] = useState([]);
-    const [showFilter, setShowFilter] = useState(false);
+    const [showFilter, setShowFilter] = useState(true);
     const [filteredProjects, setFilteredProjects] = useState([]);
 
     useEffect(() => {
         setFilteredProjects(data.projectsData.projectsList);
         setAllTags(data.projectsData.tags);
-        // setSortedTags(data.projectsData.tags.copyWithin(0, 0, data.projectsData.tags.length).sort());
         setAllProjects(data.projectsData.projectsList);
     }, []);
     useEffect(() => {
@@ -49,21 +49,46 @@ function ProjectsList() {
                     className="tag-filter-btn">Select Tags</Button>
                 {showFilter && (
                     <Container className="tag-filter-list-container">
-                        {sortedTags.map((tag, index) => (
+                        {
+                            Object.keys(tagsClass).map(classKey => (
+                                <div key={classKey + "-class"} className="tag-class-container">
+                                    <div className="tag-class-name-container">
+                                        <p className='tag-class-name'>{classKey}</p>
+                                    </div>
+                                    <div className="tag-class-tags-list-container">
+                                        {sortedTags.map((tag, index) => (
+
+
+                                            (<div key={index + "tags"}>
+                                                {
+                                                    tagsClass[classKey].find(ftag => ftag == allTags.findIndex(atag => atag == tag)) != null &&
+                                                    (<Button
+                                                        onClick={() => handleSelectTag(allTags.findIndex(atag => atag === tag))}
+                                                        key={index + "000"} className={`tag-filter-item  ${selectedTags.includes(allTags.findIndex(atag => atag === tag)) ? 'selected-tag' : 'disabled-tag'}`}
+                                                    >
+                                                        {tag}
+                                                    </Button>)
+                                                }
+
+                                            </div>)
+
+
+                                        ))}
+                                    </div>
+                                </div>
+                            ))
+                        }
+
+
+
+                        {/* {sortedTags.map((tag, index) => (
                             <Button onClick={() => handleSelectTag(allTags.findIndex(atag => atag === tag))}
                                 key={tag} className={`tag-filter-item  ${selectedTags.includes(allTags.findIndex(atag => atag === tag)) ? 'selected-tag' : 'disabled-tag'}`}
                             >
                                 {tag}
                             </Button>
-                        ))}
-                        {/* mostra s tags, ordenadas alfabeticamente */}
-                        {/* {sortedTags.map((tag, index) => (
-                            <Button onClick={() => handleSelectTag(index)}
-                                key={tag} className={`tag-filter-item  ${selectedTags.includes(index) ? 'selected-tag' : 'disabled-tag'}`}
-                            >
-                                {tag}
-                            </Button>
                         ))} */}
+
 
                     </Container>
                 )}
@@ -99,7 +124,7 @@ function ProjectsList() {
                     </Card>
                 ))}
             </Container>
-        </Container>
+        </Container >
     );
 }
 

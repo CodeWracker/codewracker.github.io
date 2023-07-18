@@ -100,16 +100,7 @@
   /* padding: 0px 16px; */
   background-color: var(--tertiary-color);
 }
-.tag-filter-list-container {
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  justify-content: left;
-  flex-wrap: wrap;
-  background-color: var(--tertiary-color);
-  padding: 4px 8px;
-  border: 1px solid var(--secondary-color);
-}
+
 .tag-filter-btn {
   background-color: var(--senary-color);
   color: var(--secondary-color);
@@ -142,4 +133,48 @@
 .disabled-tag {
   background-color: var(--secondary-color);
   color: var(--senary-color);
+}
+
+.tag-class-container {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  /* padding: 0px 16   ; */
+  margin: 0px auto;
+
+  /* padding: 0px 16px; */
+  background-color: var(--tertiary-color);
+}
+
+.tag-class-name {
+  color: var(--septenary-color);
+  padding: 8px 16px;
+  font-size: 0.8rem;
+  font-weight: 350;
+}
+.tag-class-name-container {
+  padding: 1px 6px;
+  border-radius: 5px;
+  border: 1px solid var(--primary-color);
+  margin: 4px 36px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+.tag-filter-list-container {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  background-color: var(--tertiary-color);
+  padding: 16px 8px;
+  border: 1px solid var(--secondary-color);
+}
+.tag-class-tags-list-container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: center;
 }

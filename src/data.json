@@ -44,6 +44,67 @@
             "LabTeC",
             "AngularJS"
         ],
+        "tagsClass": {
+            "General": [
+                27,
+                28
+            ],
+            "Purpose": [
+                0,
+                30,
+                13,
+                1,
+                2,
+                40,
+                3
+            ],
+            "Programming Languages": [
+                6,
+                20,
+                8,
+                5,
+                7
+            ],
+            "Data Science / AI": [
+                16,
+                12,
+                14,
+                29,
+                11
+            ],
+            "Hardware": [
+                17,
+                10,
+                38,
+                18,
+                9
+            ],
+            "Web Development": [
+                41,
+                26,
+                28,
+                31,
+                4,
+                23,
+                24,
+                25,
+                22,
+                32,
+                33,
+                34,
+                19,
+                39
+            ],
+            "Database": [
+                21,
+                37,
+                35
+            ],
+            "Computer Vision": [
+                36,
+                15
+            ]
+        },
         "projectsList": [
             {
                 "name": "Manga BookMark",
