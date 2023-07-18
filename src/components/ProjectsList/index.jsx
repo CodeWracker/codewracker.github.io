@@ -61,7 +61,7 @@ function ProjectsList() {
 
                                             (<div key={index + "tags"}>
                                                 {
-                                                    tagsClass[classKey].find(ftag => ftag == allTags.findIndex(atag => atag == tag)) != null &&
+                                                    tagsClass[classKey].find(ftag => ftag === allTags.findIndex(atag => atag === tag)) != null &&
                                                     (<Button
                                                         onClick={() => handleSelectTag(allTags.findIndex(atag => atag === tag))}
                                                         key={index + "000"} className={`tag-filter-item  ${selectedTags.includes(allTags.findIndex(atag => atag === tag)) ? 'selected-tag' : 'disabled-tag'}`}
