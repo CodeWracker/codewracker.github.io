@@ -16,6 +16,7 @@ function ProjectsList() {
         setFilteredProjects(data.projectsData.projectsList);
         setAllTags(data.projectsData.tags);
         setAllProjects(data.projectsData.projectsList);
+        setTagsClass(data.projectsData.tagsClass);
     }, []);
     useEffect(() => {
         // console.log(selectedTags);
