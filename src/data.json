@@ -62,7 +62,7 @@
       {
         "name": "SUNCHASER: Solar Charging System for Batteries",
         "link": "https://github.com/TarefasUFSC/Sunchaser-Solar_Charging_System",
-        "tags": [2, 7, 17, 18, 42],
+        "tags": [2, 7, 17, 18, 42, 32, 23],
         "image": "https://github.com/TarefasUFSC/Sunchaser-Solar_Charging_System/blob/main/logo/logo.png?raw=true",
         "description": "Development of a PWM battery charge control system for lithium and lead-acid batteries using solar panels, controlled by an ESP32."
       },
