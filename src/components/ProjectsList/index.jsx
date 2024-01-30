@@ -9,7 +9,7 @@ function ProjectsList() {
     const [tagsClass, setTagsClass] = useState(data.projectsData.tagsClass);
     let sortedTags = data.projectsData.tags.map(tag => tag).sort();
     const [selectedTags, setSelectedTags] = useState([]);
-    const [showFilter, setShowFilter] = useState(true);
+    const [showFilter, setShowFilter] = useState(false);
     const [filteredProjects, setFilteredProjects] = useState([]);
 
     useEffect(() => {
