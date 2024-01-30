@@ -1,797 +1,537 @@
 {
-    "projectsData": {
-        "tags": [
-            "Personal",
-            "SouzaCode",
-            "UFSC",
-            "ETEC",
-            "ReactJS",
-            "Python",
-            "JavaScript",
-            "C/C++",
-            "VHDL",
-            "Arduino",
-            "FPGA",
-            "AI",
-            "Machine Learning",
-            "LSIIM",
-            "Reinforcement Learning",
-            "Computer Vision",
-            "Data Science",
-            "ESP8266",
-            "Embbeded Systems",
-            "Chrome Extension",
-            "PHP",
-            "MySQL",
-            "NodeJS",
-            "React Native",
-            "ElectronJS",
-            "HTML",
-            "CSS",
-            "Automatization",
-            "Web Scraping",
-            "NLP",
-            "LIA - UFSC",
-            "VueJS",
-            "Mobile",
-            "Frontend",
-            "Backend",
-            "PostgreSQL",
-            "OpenCV",
-            "MongoDB",
-            "PIC",
-            "PWA",
-            "LabTeC",
-            "AngularJS"
-        ],
-        "tagsClass": {
-            "General": [
-                27,
-                28
-            ],
-            "Purpose": [
-                0,
-                30,
-                13,
-                1,
-                2,
-                40,
-                3
-            ],
-            "Programming Languages": [
-                6,
-                20,
-                8,
-                5,
-                7
-            ],
-            "Data Science / AI": [
-                16,
-                12,
-                14,
-                29,
-                11
-            ],
-            "Hardware": [
-                17,
-                10,
-                38,
-                18,
-                9
-            ],
-            "Web Development": [
-                41,
-                26,
-                28,
-                31,
-                4,
-                23,
-                24,
-                25,
-                22,
-                32,
-                33,
-                34,
-                19,
-                39
-            ],
-            "Database": [
-                21,
-                37,
-                35
-            ],
-            "Computer Vision": [
-                36,
-                15
-            ]
-        },
-        "projectsList": [
-            {
-                "name": "Manga BookMark",
-                "link": "https://github.com/SouzaCode/MangaBookmark",
-                "tags": [
-                    1,
-                    4,
-                    6,
-                    19,
-                    25,
-                    26,
-                    33
-                ],
-                "image": "https://github.com/SouzaCode/MangaBookmark/blob/develop/public/logo_sf.png?raw=true",
-                "description": "A Chrome extension that allows you to keep track of your favorite manga and the chapters you've read."
-            },
-            {
-                "name": "BIP Microprocessor on VHDL",
-                "link": "https://github.com/TarefasUFSC/Microprocessador-BIP-VHDL",
-                "tags": [
-                    2,
-                    8,
-                    10,
-                    18
-                ],
-                "image": "https://user-images.githubusercontent.com/42501669/183143530-79fb0cea-ab42-4fe4-895a-eaede9f89866.png",
-                "description": "A college project that aims to create a BIP microprocessor using VHDL."
-            },
-            {
-                "name": "Trello Progress tracker Bot",
-                "link": "https://github.com/CodeWracker/Trello_Progress_Tracker_Bot",
-                "tags": [
-                    0,
-                    5,
-                    27
-                ],
-                "image": "https://github.com/CodeWracker/Trello_Progress_Tracker_Bot/blob/main/output/2022-12-19-difficulty_chart.png?raw=true",
-                "description": "A bot that tracks the progress of your Trello cards and generates a chart with the estimated progress and the actual progress."
-            },
-            {
-                "name": "BudgeBakers wallet export",
-                "link": "https://github.com/CodeWracker/budgetbakers-wallet-export",
-                "tags": [
-                    0,
-                    5,
-                    27,
-                    28
-                ],
-                "image": "https://modded-1.com/wp-content/uploads/2022/03/cover-wallet.jpg",
-                "description": "A Script that exports your transactions from the Budgetbakers wallet to a CSV file."
-            },
-            {
-                "name": "Chabot RASA (SAEC)",
-                "link": "https://github.com/CodeWracker/Minicurso_SAEC-CHATBOT_RASA",
-                "tags": [
-                    2,
-                    5,
-                    11,
-                    29
-                ],
-                "image": "https://blog.brq.com/wp-content/uploads/2020/10/1.png",
-                "description": "A chatbot built using the RASA framework. Developed for a mini-course I taught at the SAEC (UFSC)."
-            },
-            {
-                "name": "Hengry Geese (Reinforcement Learning)",
-                "link": "https://github.com/CodeWracker/Hungry-Geese-Reinforcement-Learning",
-                "tags": [
-                    2,
-                    5,
-                    11,
-                    14,
-                    30
-                ],
-                "image": "https://prtimes.jp/i/24667/49/resize/d24667-49-f759af2764a4295ee28c-0.png",
-                "description": "A reinforcement learning approach to the Hungry Geese Kaggle competition. Developed for the activities of the Academic League of Artificial Intelligence (LIA)."
-            },
-            {
-                "name": "Hungry Geese (A*)",
-                "link": "https://github.com/CodeWracker/Hungry-Geese-Astar-approach",
-                "tags": [
-                    2,
-                    5,
-                    11
-                ],
-                "image": "https://prtimes.jp/i/24667/49/resize/d24667-49-f759af2764a4295ee28c-0.png",
-                "description": "An A* approach to the Hungry Geese Kaggle competition. Used in the final project of the Artificial Intelligence course at UFSC."
-            },
-            {
-                "name": "VoiceShower (TCC ETEC)",
-                "link": "https://github.com/CodeWracker/VoiceShower-Arduino",
-                "tags": [
-                    3,
-                    9,
-                    27
-                ],
-                "image": "assets/voice_shower_project.png",
-                "description": "An Arduino-powered voice recognition system that controls a shower, created as a final project for my electronics technician course at ETEC."
-            },
-            {
-                "name": "GoogleBooks PDF Extractor",
-                "link": "https://github.com/CodeWracker/GoogleBooks-pdf-extractor",
-                "tags": [
-                    0,
-                    5,
-                    27,
-                    28
-                ],
-                "image": "https://raw.githubusercontent.com/CodeWracker/GoogleBooks-pdf-extractor/master/readme-data/diagrama.png",
-                "description": "A script that extracts the PDF files from the Google Books website."
-            },
-            {
-                "name": "PenseLeve",
-                "link": "https://github.com/SouzaCode/PenseLeve",
-                "tags": [
-                    1,
-                    20,
-                    33
-                ],
-                "image": "assets/penseleve_project.png",
-                "description": "An online açaí delivery website."
-            },
-            {
-                "name": "I2C using VHDL",
-                "link": "https://github.com/RalphzeraTests/I2C-VHDL",
-                "tags": [
-                    0,
-                    8,
-                    10,
-                    18
-                ],
-                "image": "https://user-images.githubusercontent.com/42501669/183146894-f651a4d0-c488-4d60-8c90-6d092edaf8d2.png",
-                "description": "A VHDL implementation of the I2C protocol."
-            },
-            {
-                "name": "Be The Hero (Frontend)",
-                "link": "https://github.com/RalphzeraTests/frontend-Be-the-Hero",
-                "tags": [
-                    0,
-                    6,
-                    25,
-                    26,
-                    33
-                ],
-                "image": "https://github.com/RalphzeraTests/mobile-Be-the-Hero/blob/master/assets/splash.png?raw=true",
-                "description": "The frontend of the Be The Hero project, developed during the OmniStack 11.0 week. The project consists of a website and a mobile app that connects people who want to help NGOs with financial resources to NGOs that need help."
-            },
-            {
-                "name": "Be The Hero (Backend)",
-                "link": "https://github.com/RalphzeraTests/backend-Be-the-Hero",
-                "tags": [
-                    0,
-                    6,
-                    22,
-                    34,
-                    35
-                ],
-                "image": "https://github.com/RalphzeraTests/mobile-Be-the-Hero/blob/master/assets/splash.png?raw=true",
-                "description": "The backend of the Be The Hero project, developed during the OmniStack 11.0 week. The project consists of a website and a mobile app that connects people who want to help NGOs with financial resources to NGOs that need help."
-            },
-            {
-                "name": "Be The Hero (Mobile)",
-                "link": "https://github.com/RalphzeraTests/mobile-Be-the-Hero",
-                "tags": [
-                    0,
-                    6,
-                    25,
-                    26,
-                    32,
-                    23
-                ],
-                "image": "https://github.com/RalphzeraTests/mobile-Be-the-Hero/blob/master/assets/splash.png?raw=true",
-                "description": "The mobile app of the Be The Hero project, developed during the OmniStack 11.0 week. The project consists of a website and a mobile app that connects people who want to help NGOs with financial resources to NGOs that need help."
-            },
-            {
-                "name": "Ecoleta (Frontend)",
-                "link": "https://github.com/RalphzeraTests/web-ecoleta",
-                "tags": [
-                    0,
-                    6,
-                    25,
-                    26,
-                    33
-                ],
-                "image": "https://raw.githubusercontent.com/RalphzeraTests/web-ecoleta/c08e2bb7114ff9317f3465db2b34542842c45f10/src/assets/logo.svg",
-                "description": "The frontend of the Ecoleta project, developed during the Next Level Week 1.0 week. The project consists of a platform that allows people to find collection points for recyclable materials."
-            },
-            {
-                "name": "Ecoleta (Backend)",
-                "link": "https://github.com/RalphzeraTests/server-ecoleta",
-                "tags": [
-                    0,
-                    6,
-                    22,
-                    34,
-                    35
-                ],
-                "image": "https://raw.githubusercontent.com/RalphzeraTests/web-ecoleta/c08e2bb7114ff9317f3465db2b34542842c45f10/src/assets/logo.svg",
-                "description": "The backend of the Ecoleta project, developed during the Next Level Week 1.0 week. The project consists of a platform that allows people to find collection points for recyclable materials."
-            },
-            {
-                "name": "Ecoleta (Mobile)",
-                "link": "https://github.com/RalphzeraTests/mobile-ecoleta",
-                "tags": [
-                    0,
-                    6,
-                    25,
-                    26,
-                    32,
-                    23
-                ],
-                "image": "https://raw.githubusercontent.com/RalphzeraTests/web-ecoleta/c08e2bb7114ff9317f3465db2b34542842c45f10/src/assets/logo.svg",
-                "description": "The Mobile app of the Ecoleta project, developed during the Next Level Week 1.0 week. The project consists of a platform that allows people to find collection points for recyclable materials."
-            },
-            {
-                "name": "Facial Analisys on the MIGMA Dataset",
-                "link": "https://github.com/MIGMA-Team/FacialAnalysis-468Landmarks",
-                "tags": [
-                    2,
-                    5,
-                    11,
-                    13,
-                    15,
-                    16,
-                    36
-                ],
-                "image": "https://github.com/MIGMA-Team/FacialAnalysis-468Landmarks/blob/main/total.png?raw=true",
-                "description": "A project on the LSIIM (Laboratory of Signals, IoT and Medical Imagery) at UFSC, which aims to analyze the facial expressions of the MIGMA dataset."
-            },
-            {
-                "name": "Eye Tracking on Newborns",
-                "link": "https://github.com/LSIIM-Eye-Tracker/eye-tracking-opencv",
-                "tags": [
-                    2,
-                    5,
-                    11,
-                    13,
-                    15,
-                    16,
-                    36
-                ],
-                "image": "assets/eyetracker_project.png",
-                "description": "A project on the LSIIM (Laboratory of Signals, IoT and Medical Imagery) at UFSC, which aims to track the eyes of newborns using OpenCV to assist on medical diagnoses"
-            },
-            {
-                "name": "Height Gauge Using HC SR04 on ESP8266",
-                "link": "https://github.com/TarefasUFSC/T2_Sistemas_Digitais_Embarcados",
-                "tags": [
-                    2,
-                    7,
-                    17,
-                    18
-                ],
-                "image": "https://cdn.awsli.com.br/600x700/1665/1665980/produto/104637840f70505acf3.jpg",
-                "description": "A college project that aims to measure the height of a person using an ultrasonic sensor and a ESP8266."
-            },
-            {
-                "name": "Phone Book using I2C memory on ESP8266",
-                "link": "https://github.com/TarefasUFSC/T1-Sistemas_Digitais_Embarcados",
-                "tags": [
-                    2,
-                    7,
-                    17,
-                    18
-                ],
-                "image": "assets/esp_projects.jpg",
-                "description": "A college project that aims to create a phone book using a memory chip that communicates via I2C with an ESP8266."
-            },
-            {
-                "name": "WorldCup Stickers Match System (Frontend)",
-                "link": "https://github.com/TarefasUFSC/Frontend-TinderDeFigurinhas_T1-DEC0007",
-                "tags": [
-                    2,
-                    6,
-                    25,
-                    26,
-                    33
-                ],
-                "image": "assets/tinder_figurinhas_project.png",
-                "description": "The frontend page of the WorldCup Stickers Match System, developed during the Web Development class. The project consists of a website that allows people to match their WorldCup stickers with other people's stickers."
-            },
-            {
-                "name": "WorldCup Stickers Match System (Backend)",
-                "link": "https://github.com/TarefasUFSC/Backend-TinderDeFigurinhas_T1-DEC0007",
-                "tags": [
-                    2,
-                    6,
-                    22,
-                    34,
-                    37
-                ],
-                "image": "assets/tinder_figurinhas_project.png",
-                "description": "The backend of the WorldCup Stickers Match System, developed during the Web Development class. The project consists of a website that allows people to match their WorldCup stickers with other people's stickers."
-            },
-            {
-                "name": "Automatic Plant Watering",
-                "link": "https://github.com/TarefasUFSC/TFinal-Microprocessadores-Microcontroladores",
-                "tags": [
-                    2,
-                    7,
-                    18,
-                    27,
-                    38
-                ],
-                "image": "https://raw.githubusercontent.com/TarefasUFSC/TFinal-Microprocessadores-Microcontroladores/main/Diagrama%20sistema%20TopView.png",
-                "description": "A college project that aims to create a system that automatically waters a plant using a PIC16F877A microcontroller."
-            },
-            {
-                "name": "BTC Close Prive Variance Prediction",
-                "link": "https://github.com/TarefasUFSC/BTC-close-price-variance-prediction/blob/main/Relatorio-T2-IA2_RFS-MR.pdf",
-                "tags": [
-                    2,
-                    5,
-                    11,
-                    12
-                ],
-                "image": "assets/btc_predictor_project.png",
-                "description": "A college project that aims to predict the variance of the BTC close price using a dense neural network. The project was developed using Python and the Keras library for the Artificial Intelligence class."
-            },
-            {
-                "name": "Simple General Store online",
-                "link": "https://github.com/TarefasUFSC/TFinal-BD1-Lojinha",
-                "tags": [
-                    2,
-                    6,
-                    4,
-                    25,
-                    26,
-                    33,
-                    34,
-                    35
-                ],
-                "image": "https://user-images.githubusercontent.com/42501669/132998391-615e9c3b-c66f-474f-a12a-9064cf1a3446.png",
-                "description": "A project developed for the Database 1 class, which aims to create a simple online store."
-            },
-            {
-                "name": "BIP Microprocessor on LogiSim",
-                "link": "https://github.com/TarefasUFSC/Microprocessador-BIP-LogiSim",
-                "tags": [
-                    2,
-                    18
-                ],
-                "image": "https://user-images.githubusercontent.com/42501669/128900435-7ed70d69-1eae-43ec-90c9-2a61e03516ec.png",
-                "description": "A college project that aims to create a BIP microprocessor using LogiSim. Developed for the Organization and Architecture of Computers class."
-            },
-            {
-                "name": "Pseudo Random Number Generator",
-                "link": "https://github.com/TarefasUFSC/Pseudo-Random-Number-Generator",
-                "tags": [
-                    2,
-                    5
-                ],
-                "image": "assets/pseudo_random_project.png",
-                "description": "A program used on the Modeling and Simulation class, which aims to generate pseudo random numbers using hashing."
-            },
-            {
-                "name": "Visual Ant Colony Simulation on QT Creator",
-                "link": "https://github.com/TarefasUFSC/QT-ant-simulator",
-                "tags": [
-                    2,
-                    7,
-                    11
-                ],
-                "image": "https://user-images.githubusercontent.com/42501669/118399932-ebc4d780-b635-11eb-8dfa-df81e6d8b333.png",
-                "description": "The final project for the Programming Languages II class, which aims to simulate an ant colony interactively using QT Creator."
-            },
-            {
-                "name": "Ophidian Fight",
-                "link": "https://github.com/TarefasUFSC/Rinha-de-ofidio",
-                "tags": [
-                    2,
-                    7
-                ],
-                "image": "https://user-images.githubusercontent.com/42501669/116639793-b767d080-a93f-11eb-9d5a-7d038c3bc3e3.png",
-                "description": "A project developed for the Programming Languages II class, which aims to be a game like the classic snake game, but with levels and a boss fight at the end. The boss uses the A* algorithm to find the food faster than the player."
-            },
-            {
-                "name": "Robot CockFight",
-                "link": "https://github.com/TarefasUFSC/GaloRobo",
-                "tags": [
-                    2
-                ],
-                "image": "assets/galorobo_project.jpg",
-                "description": "The very first project developed at the UFSC on the Introduction to Computer Engineering class. It is a Lego Robot made for a competition, where the robot had to fight other robots and blow up the opponent's balloon."
-            },
-            {
-                "name": "Wreck My Room - Door Locks Management System",
-                "link": "https://github.com/TarefasUFSC/T2-WebDev",
-                "tags": [
-                    2,
-                    6,
-                    22,
-                    25,
-                    26,
-                    31,
-                    33,
-                    37,
-                    39
-                ],
-                "image": "assets/wmr_project.png",
-                "description": "A project for the Web Development Class that uses Vue and Progressive Web Aplication to develop a website that allows the management of door locks."
-            },
-            {
-                "name": "AR Repository",
-                "link": "https://app.rarepository.ufsc.br/pt/login",
-                "tags": [
-                    2,
-                    6,
-                    21,
-                    25,
-                    26,
-                    33,
-                    34,
-                    40
-                ],
-                "image": "https://app.rarepository.ufsc.br/pt/assets/img/Logo_RA_Reposit%C3%B3rio.png",
-                "description": "A project developed for The Laboratory of Computer Technology (LabTeC) at UFSC. The project aims to create a repository of augmented reality objects that can be used in the MAZK project."
-            },
-            {
-                "name": "LGBT Friendly App",
-                "link": "https://labtec.ufsc.br/",
-                "tags": [
-                    2,
-                    40,
-                    6,
-                    23,
-                    25,
-                    26,
-                    32,
-                    41
-                ],
-                "image": "",
-                "description": "Acted in the maintenance of the LGBT Friendly App, a project developed by the Laboratory of Computer Technology (LabTeC) at UFSC. The project aims to create a mobile application that allows the user to find LGBT friendly places."
-            }
-        ]
+  "projectsData": {
+    "tags": [
+      "Personal",
+      "SouzaCode",
+      "UFSC",
+      "ETEC",
+      "ReactJS",
+      "Python",
+      "JavaScript",
+      "C/C++",
+      "VHDL",
+      "Arduino",
+      "FPGA",
+      "AI",
+      "Machine Learning",
+      "LSIIM",
+      "Reinforcement Learning",
+      "Computer Vision",
+      "Data Science",
+      "ESP8266",
+      "Embbeded Systems",
+      "Chrome Extension",
+      "PHP",
+      "MySQL",
+      "NodeJS",
+      "React Native",
+      "ElectronJS",
+      "HTML",
+      "CSS",
+      "Automatization",
+      "Web Scraping",
+      "NLP",
+      "LIA - UFSC",
+      "VueJS",
+      "Mobile",
+      "Frontend",
+      "Backend",
+      "PostgreSQL",
+      "OpenCV",
+      "MongoDB",
+      "PIC",
+      "PWA",
+      "LabTeC",
+      "AngularJS"
+    ],
+    "tagsClass": {
+      "General": [27, 28],
+      "Purpose": [0, 30, 13, 1, 2, 40, 3],
+      "Programming Languages": [6, 20, 8, 5, 7],
+      "Data Science / AI": [16, 12, 14, 29, 11],
+      "Hardware": [17, 10, 38, 18, 9],
+      "Web Development": [
+        41, 26, 28, 31, 4, 23, 24, 25, 22, 32, 33,
+        34, 19, 39
+      ],
+      "Database": [21, 37, 35],
+      "Computer Vision": [36, 15]
     },
-    "myData": {
-        "name": "Rodrigo Ferraz Souza",
-        "description": "I have been fascinated by electronics since childhood, when I became interested in computers, which is why I became an electronics technician and now, in my undergraduate studies, I have found my passion in the areas of AI and hardware synthesis in FPGAs. In addition to these two areas, I believe that embedded systems, especially with IoT, have great potential.",
-        "profile_image": "assets/terno-nbg.png",
-        "skillList": {
-            "Languages": [
-                {
-                    "skillName": "Python",
-                    "skillPoints": 85
-                },
-                {
-                    "skillName": "JavaScript",
-                    "skillPoints": 75
-                },
-                {
-                    "skillName": "C/C++",
-                    "skillPoints": 80
-                },
-                {
-                    "skillName": "VHDL",
-                    "skillPoints": 60
-                },
-                {
-                    "skillName": "Arduino",
-                    "skillPoints": 90
-                }
-            ],
-            "Frameworks": [
-                {
-                    "skillName": "React",
-                    "skillPoints": 70
-                },
-                {
-                    "skillName": "Angular",
-                    "skillPoints": 65
-                },
-                {
-                    "skillName": "NodeJS",
-                    "skillPoints": 80
-                },
-                {
-                    "skillName": "Express",
-                    "skillPoints": 75
-                },
-                {
-                    "skillName": "Flask",
-                    "skillPoints": 70
-                },
-                {
-                    "skillName": "OpenCV",
-                    "skillPoints": 85
-                },
-                {
-                    "skillName": "Keras",
-                    "skillPoints": 65
-                },
-                {
-                    "skillName": "Chatbot RASA",
-                    "skillPoints": 55
-                }
-            ],
-            "Databases": [
-                {
-                    "skillName": "MySQL",
-                    "skillPoints": 75
-                },
-                {
-                    "skillName": "MongoDB",
-                    "skillPoints": 70
-                },
-                {
-                    "skillName": "SQLite",
-                    "skillPoints": 75
-                }
-            ],
-            "Tools": [
-                {
-                    "skillName": "Git",
-                    "skillPoints": 90
-                },
-                {
-                    "skillName": "Proteus",
-                    "skillPoints": 90
-                },
-                {
-                    "skillName": "MikroC",
-                    "skillPoints": 80
-                },
-                {
-                    "skillName": "Quartus Prime",
-                    "skillPoints": 75
-                }
-            ],
-            "Idioms": [
-                {
-                    "skillName": "English",
-                    "skillPoints": 80
-                },
-                {
-                    "skillName": "Japanese",
-                    "skillPoints": 30
-                },
-                {
-                    "skillName": "Portuguese",
-                    "skillPoints": 100
-                }
-            ]
-        },
-        "academic_history": [
-            {
-                "id": 3,
-                "course": "Course Taking Sandwich",
-                "institution": "SIT - Shibaura Institute of Technology (芝浦工業大学)",
-                "time": [
-                    "2023",
-                    "2023"
-                ],
-                "description": "",
-                "logo": "assets/sit_logo_mini.png"
-            },
-            {
-                "id": 2,
-                "course": "Major in Computer Engineering",
-                "institution": "UFSC - Federal University of Santa Catarina",
-                "time": [
-                    "2019",
-                    "Now"
-                ],
-                "description": "",
-                "logo": "assets/ufsc_logo_mini.png"
-            },
-            {
-                "id": 1,
-                "course": "Electronics Technician",
-                "institution": "ETEC Presidente Vargas",
-                "time": [
-                    "2016",
-                    "2018"
-                ],
-                "description": "",
-                "logo": "assets/etec_logo_mini.jpg"
-            }
+    "projectsList": [
+      {
+        "name": "Manga BookMark",
+        "link": "https://github.com/SouzaCode/MangaBookmark",
+        "tags": [1, 4, 6, 19, 25, 26, 33],
+        "image": "https://github.com/SouzaCode/MangaBookmark/blob/develop/public/logo_sf.png?raw=true",
+        "description": "A Chrome extension that allows you to keep track of your favorite manga and the chapters you've read."
+      },
+      {
+        "name": "BIP Microprocessor on VHDL",
+        "link": "https://github.com/TarefasUFSC/Microprocessador-BIP-VHDL",
+        "tags": [2, 8, 10, 18],
+        "image": "https://user-images.githubusercontent.com/42501669/183143530-79fb0cea-ab42-4fe4-895a-eaede9f89866.png",
+        "description": "A college project that aims to create a BIP microprocessor using VHDL."
+      },
+      {
+        "name": "Trello Progress tracker Bot",
+        "link": "https://github.com/CodeWracker/Trello_Progress_Tracker_Bot",
+        "tags": [0, 5, 27],
+        "image": "https://github.com/CodeWracker/Trello_Progress_Tracker_Bot/blob/main/output/2022-12-19-difficulty_chart.png?raw=true",
+        "description": "A bot that tracks the progress of your Trello cards and generates a chart with the estimated progress and the actual progress."
+      },
+      {
+        "name": "BudgeBakers wallet export",
+        "link": "https://github.com/CodeWracker/budgetbakers-wallet-export",
+        "tags": [0, 5, 27, 28],
+        "image": "https://modded-1.com/wp-content/uploads/2022/03/cover-wallet.jpg",
+        "description": "A Script that exports your transactions from the Budgetbakers wallet to a CSV file."
+      },
+      {
+        "name": "Chabot RASA (SAEC)",
+        "link": "https://github.com/CodeWracker/Minicurso_SAEC-CHATBOT_RASA",
+        "tags": [2, 5, 11, 29],
+        "image": "https://blog.brq.com/wp-content/uploads/2020/10/1.png",
+        "description": "A chatbot built using the RASA framework. Developed for a mini-course I taught at the SAEC (UFSC)."
+      },
+      {
+        "name": "Hengry Geese (Reinforcement Learning)",
+        "link": "https://github.com/CodeWracker/Hungry-Geese-Reinforcement-Learning",
+        "tags": [2, 5, 11, 14, 30],
+        "image": "https://prtimes.jp/i/24667/49/resize/d24667-49-f759af2764a4295ee28c-0.png",
+        "description": "A reinforcement learning approach to the Hungry Geese Kaggle competition. Developed for the activities of the Academic League of Artificial Intelligence (LIA)."
+      },
+      {
+        "name": "Hungry Geese (A*)",
+        "link": "https://github.com/CodeWracker/Hungry-Geese-Astar-approach",
+        "tags": [2, 5, 11],
+        "image": "https://prtimes.jp/i/24667/49/resize/d24667-49-f759af2764a4295ee28c-0.png",
+        "description": "An A* approach to the Hungry Geese Kaggle competition. Used in the final project of the Artificial Intelligence course at UFSC."
+      },
+      {
+        "name": "VoiceShower (TCC ETEC)",
+        "link": "https://github.com/CodeWracker/VoiceShower-Arduino",
+        "tags": [3, 9, 27],
+        "image": "assets/voice_shower_project.png",
+        "description": "An Arduino-powered voice recognition system that controls a shower, created as a final project for my electronics technician course at ETEC."
+      },
+      {
+        "name": "GoogleBooks PDF Extractor",
+        "link": "https://github.com/CodeWracker/GoogleBooks-pdf-extractor",
+        "tags": [0, 5, 27, 28],
+        "image": "https://raw.githubusercontent.com/CodeWracker/GoogleBooks-pdf-extractor/master/readme-data/diagrama.png",
+        "description": "A script that extracts the PDF files from the Google Books website."
+      },
+      {
+        "name": "PenseLeve",
+        "link": "https://github.com/SouzaCode/PenseLeve",
+        "tags": [1, 20, 33],
+        "image": "assets/penseleve_project.png",
+        "description": "An online açaí delivery website."
+      },
+      {
+        "name": "I2C using VHDL",
+        "link": "https://github.com/RalphzeraTests/I2C-VHDL",
+        "tags": [0, 8, 10, 18],
+        "image": "https://user-images.githubusercontent.com/42501669/183146894-f651a4d0-c488-4d60-8c90-6d092edaf8d2.png",
+        "description": "A VHDL implementation of the I2C protocol."
+      },
+      {
+        "name": "Be The Hero (Frontend)",
+        "link": "https://github.com/RalphzeraTests/frontend-Be-the-Hero",
+        "tags": [0, 6, 25, 26, 33],
+        "image": "https://github.com/RalphzeraTests/mobile-Be-the-Hero/blob/master/assets/splash.png?raw=true",
+        "description": "The frontend of the Be The Hero project, developed during the OmniStack 11.0 week. The project consists of a website and a mobile app that connects people who want to help NGOs with financial resources to NGOs that need help."
+      },
+      {
+        "name": "Be The Hero (Backend)",
+        "link": "https://github.com/RalphzeraTests/backend-Be-the-Hero",
+        "tags": [0, 6, 22, 34, 35],
+        "image": "https://github.com/RalphzeraTests/mobile-Be-the-Hero/blob/master/assets/splash.png?raw=true",
+        "description": "The backend of the Be The Hero project, developed during the OmniStack 11.0 week. The project consists of a website and a mobile app that connects people who want to help NGOs with financial resources to NGOs that need help."
+      },
+      {
+        "name": "Be The Hero (Mobile)",
+        "link": "https://github.com/RalphzeraTests/mobile-Be-the-Hero",
+        "tags": [0, 6, 25, 26, 32, 23],
+        "image": "https://github.com/RalphzeraTests/mobile-Be-the-Hero/blob/master/assets/splash.png?raw=true",
+        "description": "The mobile app of the Be The Hero project, developed during the OmniStack 11.0 week. The project consists of a website and a mobile app that connects people who want to help NGOs with financial resources to NGOs that need help."
+      },
+      {
+        "name": "Ecoleta (Frontend)",
+        "link": "https://github.com/RalphzeraTests/web-ecoleta",
+        "tags": [0, 6, 25, 26, 33],
+        "image": "https://raw.githubusercontent.com/RalphzeraTests/web-ecoleta/c08e2bb7114ff9317f3465db2b34542842c45f10/src/assets/logo.svg",
+        "description": "The frontend of the Ecoleta project, developed during the Next Level Week 1.0 week. The project consists of a platform that allows people to find collection points for recyclable materials."
+      },
+      {
+        "name": "Ecoleta (Backend)",
+        "link": "https://github.com/RalphzeraTests/server-ecoleta",
+        "tags": [0, 6, 22, 34, 35],
+        "image": "https://raw.githubusercontent.com/RalphzeraTests/web-ecoleta/c08e2bb7114ff9317f3465db2b34542842c45f10/src/assets/logo.svg",
+        "description": "The backend of the Ecoleta project, developed during the Next Level Week 1.0 week. The project consists of a platform that allows people to find collection points for recyclable materials."
+      },
+      {
+        "name": "Ecoleta (Mobile)",
+        "link": "https://github.com/RalphzeraTests/mobile-ecoleta",
+        "tags": [0, 6, 25, 26, 32, 23],
+        "image": "https://raw.githubusercontent.com/RalphzeraTests/web-ecoleta/c08e2bb7114ff9317f3465db2b34542842c45f10/src/assets/logo.svg",
+        "description": "The Mobile app of the Ecoleta project, developed during the Next Level Week 1.0 week. The project consists of a platform that allows people to find collection points for recyclable materials."
+      },
+      {
+        "name": "Facial Analisys on the MIGMA Dataset",
+        "link": "https://github.com/MIGMA-Team/FacialAnalysis-468Landmarks",
+        "tags": [2, 5, 11, 13, 15, 16, 36],
+        "image": "https://github.com/MIGMA-Team/FacialAnalysis-468Landmarks/blob/main/total.png?raw=true",
+        "description": "A project on the LSIIM (Laboratory of Signals, IoT and Medical Imagery) at UFSC, which aims to analyze the facial expressions of the MIGMA dataset."
+      },
+      {
+        "name": "Eye Tracking on Newborns",
+        "link": "https://github.com/LSIIM-Eye-Tracker/eye-tracking-opencv",
+        "tags": [2, 5, 11, 13, 15, 16, 36],
+        "image": "assets/eyetracker_project.png",
+        "description": "A project on the LSIIM (Laboratory of Signals, IoT and Medical Imagery) at UFSC, which aims to track the eyes of newborns using OpenCV to assist on medical diagnoses"
+      },
+      {
+        "name": "Height Gauge Using HC SR04 on ESP8266",
+        "link": "https://github.com/TarefasUFSC/T2_Sistemas_Digitais_Embarcados",
+        "tags": [2, 7, 17, 18],
+        "image": "https://cdn.awsli.com.br/600x700/1665/1665980/produto/104637840f70505acf3.jpg",
+        "description": "A college project that aims to measure the height of a person using an ultrasonic sensor and a ESP8266."
+      },
+      {
+        "name": "Phone Book using I2C memory on ESP8266",
+        "link": "https://github.com/TarefasUFSC/T1-Sistemas_Digitais_Embarcados",
+        "tags": [2, 7, 17, 18],
+        "image": "assets/esp_projects.jpg",
+        "description": "A college project that aims to create a phone book using a memory chip that communicates via I2C with an ESP8266."
+      },
+      {
+        "name": "WorldCup Stickers Match System (Frontend)",
+        "link": "https://github.com/TarefasUFSC/Frontend-TinderDeFigurinhas_T1-DEC0007",
+        "tags": [2, 6, 25, 26, 33],
+        "image": "assets/tinder_figurinhas_project.png",
+        "description": "The frontend page of the WorldCup Stickers Match System, developed during the Web Development class. The project consists of a website that allows people to match their WorldCup stickers with other people's stickers."
+      },
+      {
+        "name": "WorldCup Stickers Match System (Backend)",
+        "link": "https://github.com/TarefasUFSC/Backend-TinderDeFigurinhas_T1-DEC0007",
+        "tags": [2, 6, 22, 34, 37],
+        "image": "assets/tinder_figurinhas_project.png",
+        "description": "The backend of the WorldCup Stickers Match System, developed during the Web Development class. The project consists of a website that allows people to match their WorldCup stickers with other people's stickers."
+      },
+      {
+        "name": "Automatic Plant Watering",
+        "link": "https://github.com/TarefasUFSC/TFinal-Microprocessadores-Microcontroladores",
+        "tags": [2, 7, 18, 27, 38],
+        "image": "https://raw.githubusercontent.com/TarefasUFSC/TFinal-Microprocessadores-Microcontroladores/main/Diagrama%20sistema%20TopView.png",
+        "description": "A college project that aims to create a system that automatically waters a plant using a PIC16F877A microcontroller."
+      },
+      {
+        "name": "BTC Close Prive Variance Prediction",
+        "link": "https://github.com/TarefasUFSC/BTC-close-price-variance-prediction/blob/main/Relatorio-T2-IA2_RFS-MR.pdf",
+        "tags": [2, 5, 11, 12],
+        "image": "assets/btc_predictor_project.png",
+        "description": "A college project that aims to predict the variance of the BTC close price using a dense neural network. The project was developed using Python and the Keras library for the Artificial Intelligence class."
+      },
+      {
+        "name": "Simple General Store online",
+        "link": "https://github.com/TarefasUFSC/TFinal-BD1-Lojinha",
+        "tags": [2, 6, 4, 25, 26, 33, 34, 35],
+        "image": "https://user-images.githubusercontent.com/42501669/132998391-615e9c3b-c66f-474f-a12a-9064cf1a3446.png",
+        "description": "A project developed for the Database 1 class, which aims to create a simple online store."
+      },
+      {
+        "name": "BIP Microprocessor on LogiSim",
+        "link": "https://github.com/TarefasUFSC/Microprocessador-BIP-LogiSim",
+        "tags": [2, 18],
+        "image": "https://user-images.githubusercontent.com/42501669/128900435-7ed70d69-1eae-43ec-90c9-2a61e03516ec.png",
+        "description": "A college project that aims to create a BIP microprocessor using LogiSim. Developed for the Organization and Architecture of Computers class."
+      },
+      {
+        "name": "Pseudo Random Number Generator",
+        "link": "https://github.com/TarefasUFSC/Pseudo-Random-Number-Generator",
+        "tags": [2, 5],
+        "image": "assets/pseudo_random_project.png",
+        "description": "A program used on the Modeling and Simulation class, which aims to generate pseudo random numbers using hashing."
+      },
+      {
+        "name": "Visual Ant Colony Simulation on QT Creator",
+        "link": "https://github.com/TarefasUFSC/QT-ant-simulator",
+        "tags": [2, 7, 11],
+        "image": "https://user-images.githubusercontent.com/42501669/118399932-ebc4d780-b635-11eb-8dfa-df81e6d8b333.png",
+        "description": "The final project for the Programming Languages II class, which aims to simulate an ant colony interactively using QT Creator."
+      },
+      {
+        "name": "Ophidian Fight",
+        "link": "https://github.com/TarefasUFSC/Rinha-de-ofidio",
+        "tags": [2, 7],
+        "image": "https://user-images.githubusercontent.com/42501669/116639793-b767d080-a93f-11eb-9d5a-7d038c3bc3e3.png",
+        "description": "A project developed for the Programming Languages II class, which aims to be a game like the classic snake game, but with levels and a boss fight at the end. The boss uses the A* algorithm to find the food faster than the player."
+      },
+      {
+        "name": "Robot CockFight",
+        "link": "https://github.com/TarefasUFSC/GaloRobo",
+        "tags": [2],
+        "image": "assets/galorobo_project.jpg",
+        "description": "The very first project developed at the UFSC on the Introduction to Computer Engineering class. It is a Lego Robot made for a competition, where the robot had to fight other robots and blow up the opponent's balloon."
+      },
+      {
+        "name": "Wreck My Room - Door Locks Management System",
+        "link": "https://github.com/TarefasUFSC/T2-WebDev",
+        "tags": [
+          2, 6, 22, 25, 26, 31, 33, 37, 39
         ],
-        "work_history": {
-            "LSIIM - Laboratory of Signals, IoT and Medical Imagery": {
-                "logo": "assets/lsiim_logo_mini.png",
-                "positions": [
-                    {
-                        "name": "Volunteer Researcher at the Eye Tracker Project",
-                        "time": [
-                            "06/2021",
-                            "Now"
-                        ],
-                        "description": "Together with Prof. Sobieranski developed a solution to detect anomalies in the vision of newborns exposed to Covid-19 during pregnancy. Using Computer Vision, with the MediaPipe model, to detect abnormal proportions between pupil and iris and analyzing pupil fluctuation in relation to time to assess the child's condition, using neural network models with TensorFlow in python."
-                    },
-                    {
-                        "name": "PIBIC Scholarship in the MIGA Project",
-                        "time": [
-                            "10/2021",
-                            "10/2022"
-                        ],
-                        "description": "My goal in this project is to use python to discover statistical correlations between the Landmarks obtained by analyzing facial expressions, with Google's MediaPipe, and their psychiatric diagnoses, obtained on the day they took the captures."
-                    }
-                ]
-            },
-            "LIA - Academic League of Artificial Intelligence": {
-                "logo": "assets/lia_logo_mini.jpg",
-                "positions": [
-                    {
-                        "name": "Vice President",
-                        "time": [
-                            "06/2021",
-                            "04/2022"
-                        ],
-                        "description": "As a founding member and vice president of LIA, it was my responsibility to help the president and administrative members effectively coordinate the activities of the league, such as the organization of events, the development of projects and the dissemination of the league."
-                    }
-                ]
-            },
-            "UFSC - Federal University of Santa Catarina": {
-                "logo": "assets/ufsc_logo_mini.png",
-                "positions": [
-                    {
-                        "name": "Data Structures I Monitor",
-                        "time": [
-                            "02/2021",
-                            "05/2021"
-                        ],
-                        "description": "I was responsible for monitoring the discipline of Data Structures I, in the Computer Engineering course, at the Federal University of Santa Catarina."
-                    }
-                ]
-            },
-            "LabTeC - Laboratory of Computational Technologies": {
-                "logo": "assets/labtec_logo_mini.png",
-                "positions": [
-                    {
-                        "name": "Team Leader - SysLab",
-                        "time": [
-                            "05/2020",
-                            "07/2020"
-                        ],
-                        "description": "I coordinated a team to develop a management system for the laboratory, with React JS website, React Native mobile application, NodeJS backend and Postgresql database."
-                    },
-                    {
-                        "name": "Android FrontEnd Developer - LGBT Friendly",
-                        "time": [
-                            "12/2019",
-                            "07/2020"
-                        ],
-                        "description": "I was part of the maintenance team of the LGBT Friendly App, written in React Native"
-                    },
-                    {
-                        "name": "FullStack Developer - RA Repository",
-                        "time": [
-                            "03/2019",
-                            "07/2020"
-                        ],
-                        "description": "I was part of the development of a FrontEnd application in Angular, with BackEnd in Python using Swagger and SQLAlchemy and MySQL Database to create a repository for the Augmented Reality objects Created by the laboratory"
-                    }
-                ]
-            }
+        "image": "assets/wmr_project.png",
+        "description": "A project for the Web Development Class that uses Vue and Progressive Web Aplication to develop a website that allows the management of door locks."
+      },
+      {
+        "name": "AR Repository",
+        "link": "https://app.rarepository.ufsc.br/pt/login",
+        "tags": [2, 6, 21, 25, 26, 33, 34, 40],
+        "image": "https://app.rarepository.ufsc.br/pt/assets/img/Logo_RA_Reposit%C3%B3rio.png",
+        "description": "A project developed for The Laboratory of Computer Technology (LabTeC) at UFSC. The project aims to create a repository of augmented reality objects that can be used in the MAZK project."
+      },
+      {
+        "name": "LGBT Friendly App",
+        "link": "https://labtec.ufsc.br/",
+        "tags": [2, 40, 6, 23, 25, 26, 32, 41],
+        "image": "",
+        "description": "Acted in the maintenance of the LGBT Friendly App, a project developed by the Laboratory of Computer Technology (LabTeC) at UFSC. The project aims to create a mobile application that allows the user to find LGBT friendly places."
+      }
+    ]
+  },
+  "myData": {
+    "name": "Rodrigo Ferraz Souza",
+    "description": "I have been fascinated by electronics since childhood, when I became interested in computers, which is why I became an electronics technician and now, in my undergraduate studies, I have found my passion in the areas of AI and hardware synthesis in FPGAs. In addition to these two areas, I believe that embedded systems, especially with IoT, have great potential.",
+    "profile_image": "assets/terno-nbg.png",
+    "skillList": {
+      "Languages": [
+        {
+          "skillName": "Python",
+          "skillPoints": 85
         },
-        "contact_info": [
-            {
-                "email": {
-                    "value": "dev.rodrigofs@gmail.com",
-                    "logo": "assets/email_logo_mini.png",
-                    "link": "mailto:dev.rodrigofs@gmail.com?subject=Hello%20Rodrigo!"
-                },
-                "whatsapp": {
-                    "value": "+55 11 97482-0650",
-                    "logo": "assets/whatsapp_logo_mini.png",
-                    "link": "https://wa.me/5511974820650"
-                }
-            },
-            {
-                "linkedin": {
-                    "link": "https://www.linkedin.com/in/rodrigo-fsouza/",
-                    "logo": "assets/linkedin_logo_mini.png"
-                },
-                "github": {
-                    "link": "https://www.github.com/codewracker",
-                    "logo": "assets/github_logo_mini.png"
-                },
-                "stack_overflow": {
-                    "link": "https://stackoverflow.com/users/15266137/rodrigo-ferraz-souza",
-                    "logo": "assets/stackoverflow_logo_mini.png"
-                },
-                "lattes": {
-                    "link": "http://lattes.cnpq.br/7933591978524202",
-                    "logo": "assets/lattes_logo_mini.png"
-                }
-            }
+        {
+          "skillName": "JavaScript",
+          "skillPoints": 75
+        },
+        {
+          "skillName": "C/C++",
+          "skillPoints": 80
+        },
+        {
+          "skillName": "VHDL",
+          "skillPoints": 60
+        },
+        {
+          "skillName": "Arduino",
+          "skillPoints": 90
+        }
+      ],
+      "Frameworks": [
+        {
+          "skillName": "React",
+          "skillPoints": 70
+        },
+        {
+          "skillName": "Angular",
+          "skillPoints": 65
+        },
+        {
+          "skillName": "NodeJS",
+          "skillPoints": 80
+        },
+        {
+          "skillName": "Express",
+          "skillPoints": 75
+        },
+        {
+          "skillName": "Flask",
+          "skillPoints": 70
+        },
+        {
+          "skillName": "OpenCV",
+          "skillPoints": 85
+        },
+        {
+          "skillName": "Keras",
+          "skillPoints": 65
+        },
+        {
+          "skillName": "Chatbot RASA",
+          "skillPoints": 55
+        }
+      ],
+      "Databases": [
+        {
+          "skillName": "MySQL",
+          "skillPoints": 75
+        },
+        {
+          "skillName": "MongoDB",
+          "skillPoints": 70
+        },
+        {
+          "skillName": "SQLite",
+          "skillPoints": 75
+        }
+      ],
+      "Tools": [
+        {
+          "skillName": "Git",
+          "skillPoints": 90
+        },
+        {
+          "skillName": "Proteus",
+          "skillPoints": 90
+        },
+        {
+          "skillName": "MikroC",
+          "skillPoints": 80
+        },
+        {
+          "skillName": "Quartus Prime",
+          "skillPoints": 75
+        }
+      ],
+      "Idioms": [
+        {
+          "skillName": "English",
+          "skillPoints": 80
+        },
+        {
+          "skillName": "Japanese",
+          "skillPoints": 30
+        },
+        {
+          "skillName": "Portuguese",
+          "skillPoints": 100
+        }
+      ]
+    },
+    "academic_history": [
+      {
+        "id": 3,
+        "course": "Course Taking Sandwich",
+        "institution": "SIT - Shibaura Institute of Technology (芝浦工業大学)",
+        "time": ["2023", "2023"],
+        "description": "",
+        "logo": "assets/sit_logo_mini.png"
+      },
+      {
+        "id": 2,
+        "course": "Major in Computer Engineering",
+        "institution": "UFSC - Federal University of Santa Catarina",
+        "time": ["2019", "Now"],
+        "description": "",
+        "logo": "assets/ufsc_logo_mini.png"
+      },
+      {
+        "id": 1,
+        "course": "Electronics Technician",
+        "institution": "ETEC Presidente Vargas",
+        "time": ["2016", "2018"],
+        "description": "",
+        "logo": "assets/etec_logo_mini.jpg"
+      }
+    ],
+    "work_history": {
+      "Global Drones": {
+        "logo": "assets/logo-global-drones.png",
+        "positions": [
+          {
+            "name": "Intern in Applied Drone Technology Research and Development",
+            "time": ["09/2023", "Now"],
+            "description": "In my internship at GLOBAL DRONES, I primarily work on creating orthomosaics using DJI Terra, from NADIR drone images of plantations and pastures. I am also seeking alternatives to DJI, using tools like Open Drone Map, to adapt our data for other applications. Part of my job involves processing this data on private clusters and on the Google Cloud Platform.  I am also involved in a project for automatic detection of traffic violations using drone images, where I apply the YOLO neural network to identify cars. This project is part of our research and development efforts, exploring the use of AI to enhance accuracy in various areas, including agriculture 4.0."
+          }
         ]
-    }
+      },
+      "LSIIM - Laboratory of Signals, IoT and Medical Imagery": {
+        "logo": "assets/lsiim_logo_mini.png",
+        "positions": [
+          {
+            "name": "Volunteer Researcher at the Eye Tracker Project",
+            "time": ["06/2021", "Now"],
+            "description": "Together with Prof. Sobieranski developed a solution to detect anomalies in the vision of newborns exposed to Covid-19 during pregnancy. Using Computer Vision, with the MediaPipe model, to detect abnormal proportions between pupil and iris and analyzing pupil fluctuation in relation to time to assess the child's condition, using neural network models with TensorFlow in python."
+          },
+          {
+            "name": "PIBIC Scholarship in the MIGA Project",
+            "time": ["10/2021", "10/2022"],
+            "description": "My goal in this project is to use python to discover statistical correlations between the Landmarks obtained by analyzing facial expressions, with Google's MediaPipe, and their psychiatric diagnoses, obtained on the day they took the captures."
+          }
+        ]
+      },
+      "LIA - Academic League of Artificial Intelligence": {
+        "logo": "assets/lia_logo_mini.jpg",
+        "positions": [
+          {
+            "name": "Vice President",
+            "time": ["06/2021", "04/2022"],
+            "description": "As a founding member and vice president of LIA, it was my responsibility to help the president and administrative members effectively coordinate the activities of the league, such as the organization of events, the development of projects and the dissemination of the league."
+          }
+        ]
+      },
+      "UFSC - Federal University of Santa Catarina": {
+        "logo": "assets/ufsc_logo_mini.png",
+        "positions": [
+          {
+            "name": "Data Structures I Monitor",
+            "time": ["02/2021", "05/2021"],
+            "description": "I was responsible for monitoring the discipline of Data Structures I, in the Computer Engineering course, at the Federal University of Santa Catarina."
+          }
+        ]
+      },
+      "LabTeC - Laboratory of Computational Technologies": {
+        "logo": "assets/labtec_logo_mini.png",
+        "positions": [
+          {
+            "name": "Team Leader - SysLab",
+            "time": ["05/2020", "07/2020"],
+            "description": "I coordinated a team to develop a management system for the laboratory, with React JS website, React Native mobile application, NodeJS backend and Postgresql database."
+          },
+          {
+            "name": "Android FrontEnd Developer - LGBT Friendly",
+            "time": ["12/2019", "07/2020"],
+            "description": "I was part of the maintenance team of the LGBT Friendly App, written in React Native"
+          },
+          {
+            "name": "FullStack Developer - RA Repository",
+            "time": ["03/2019", "07/2020"],
+            "description": "I was part of the development of a FrontEnd application in Angular, with BackEnd in Python using Swagger and SQLAlchemy and MySQL Database to create a repository for the Augmented Reality objects Created by the laboratory"
+          }
+        ]
+      }
+    },
+    "contact_info": [
+      {
+        "email": {
+          "value": "dev.rodrigofs@gmail.com",
+          "logo": "assets/email_logo_mini.png",
+          "link": "mailto:dev.rodrigofs@gmail.com?subject=Hello%20Rodrigo!"
+        },
+        "whatsapp": {
+          "value": "+55 11 97482-0650",
+          "logo": "assets/whatsapp_logo_mini.png",
+          "link": "https://wa.me/5511974820650"
+        }
+      },
+      {
+        "linkedin": {
+          "link": "https://www.linkedin.com/in/rodrigo-fsouza/",
+          "logo": "assets/linkedin_logo_mini.png"
+        },
+        "github": {
+          "link": "https://www.github.com/codewracker",
+          "logo": "assets/github_logo_mini.png"
+        },
+        "stack_overflow": {
+          "link": "https://stackoverflow.com/users/15266137/rodrigo-ferraz-souza",
+          "logo": "assets/stackoverflow_logo_mini.png"
+        },
+        "lattes": {
+          "link": "http://lattes.cnpq.br/7933591978524202",
+          "logo": "assets/lattes_logo_mini.png"
+        }
+      }
+    ]
+  }
 }
