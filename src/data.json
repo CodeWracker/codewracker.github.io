@@ -467,6 +467,16 @@
           }
         ]
       },
+      "Embraer": {
+        "logo": "assets/embraer_logo.jpg",
+        "positions": [
+          {
+            "name": "Data Analysis and Support in Engineering and Data Management (Remote)",
+            "time": ["08/2024", "01/2025"],
+            "description": "Internship in Defense Engineering focusing on data analysis, control, and management. Responsibilities included managing MySQL databases, implementing Python automations, developing systems using Node.js, designing user interfaces with Power App, and creating dynamic Power BI reports."
+          }
+        ]
+      },
       "LSIIM - Laboratory of Signals, IoT and Medical Imagery": {
         "logo": "assets/lsiim_logo_mini.png",
         "positions": [
