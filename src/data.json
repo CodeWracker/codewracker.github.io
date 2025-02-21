@@ -433,7 +433,7 @@
         "id": 2,
         "course": "Major in Computer Engineering",
         "institution": "UFSC - Federal University of Santa Catarina",
-        "time": ["2019", "Now"],
+        "time": ["2019", "2024"],
         "description": "",
         "logo": "assets/ufsc_logo_mini.png"
       },
@@ -451,9 +451,19 @@
         "logo": "assets/logo-global-drones.png",
         "positions": [
           {
-            "name": "Intern in Applied Drone Technology Research and Development",
-            "time": ["09/2023", "Now"],
-            "description": "In my internship at GLOBAL DRONES, I primarily work on creating orthomosaics using DJI Terra, from NADIR drone images of plantations and pastures. I am also seeking alternatives to DJI, using tools like Open Drone Map, to adapt our data for other applications. Part of my job involves processing this data on private clusters and on the Google Cloud Platform.  I am also involved in a project for automatic detection of traffic violations using drone images, where I apply the YOLO neural network to identify cars. This project is part of our research and development efforts, exploring the use of AI to enhance accuracy in various areas, including agriculture 4.0."
+            "name": "AI Development Engineer",
+            "time": ["01/2025", "Now"],
+            "description": "Full-time remote role focusing on AI development."
+          },
+          {
+            "name": "Software Engineering Consultant",
+            "time": ["08/2024", "10/2024"],
+            "description": "Provided consultancy for Web Systems and Artificial Intelligence projects."
+          },
+          {
+            "name": "R&D Intern in Applied Drone Technology",
+            "time": ["09/2023", "08/2024"],
+            "description": "Created orthomosaics using DJI Terra from NADIR drone images of plantations and pastures. Explored alternatives using Open Drone Map, processed data on private clusters and Google Cloud Platform, and contributed to an automatic traffic violation detection project using the YOLO neural network as part of R&D in Agriculture 4.0."
           }
         ]
       },
@@ -461,14 +471,19 @@
         "logo": "assets/lsiim_logo_mini.png",
         "positions": [
           {
-            "name": "Volunteer Researcher at the Eye Tracker Project",
-            "time": ["06/2021", "Now"],
-            "description": "Together with Prof. Sobieranski developed a solution to detect anomalies in the vision of newborns exposed to Covid-19 during pregnancy. Using Computer Vision, with the MediaPipe model, to detect abnormal proportions between pupil and iris and analyzing pupil fluctuation in relation to time to assess the child's condition, using neural network models with TensorFlow in python."
+            "name": "Team Leader, Eye Tracker Project",
+            "time": ["07/2024", "Now"],
+            "description": "Remotely led the Eye Tracker project team from Araranguá, Santa Catarina."
           },
           {
-            "name": "PIBIC Scholarship in the MIGA Project",
-            "time": ["10/2021", "10/2022"],
-            "description": "My goal in this project is to use python to discover statistical correlations between the Landmarks obtained by analyzing facial expressions, with Google's MediaPipe, and their psychiatric diagnoses, obtained on the day they took the captures."
+            "name": "Volunteer Researcher at the Eye Tracker Project",
+            "time": ["06/2021", "09/2024"],
+            "description": "Developed a solution to detect vision anomalies in newborns exposed to Covid-19 in utero using computer vision with the MediaPipe model and TensorFlow in Python, in collaboration with Prof. Sobieranski."
+          },
+          {
+            "name": "PIBIC Scholarship in the MIGMA Project",
+            "time": ["09/2021", "09/2022"],
+            "description": "Used Python to discover statistical correlations between facial expression landmarks (analyzed with Google's MediaPipe) and same-day psychiatric diagnoses."
           }
         ]
       },
